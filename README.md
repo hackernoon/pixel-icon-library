@@ -1,7 +1,7 @@
 # pixelated-site-icons
 the classic pixelated that define [HackerNoon.com](https:hackernoon.com), are now free to use on your own site :-) 
 
-This set of 113 original icons is available free to use with accreditation to HackerNoon. While they are all listed below, we also packaged it up to make the pixelated site icons NPM package (download) and pixelated site icons figma file. 
+This set of 113 original icons is available free to use with accreditation to HackerNoon. While they are all listed below, we also packaged it up to make the pixelated site icons NPM package (download) and [the pixelated site icons figma file](https://www.figma.com/file/Ge2OozAi0jAIqEAiArbO9A/HackerNoon-%7C-Pixelated-Icon-Library?type=design&node-id=0-1&t=cRzbN22MWyZOZpAK-0).
 
 Cloud Upload
 Envelope
