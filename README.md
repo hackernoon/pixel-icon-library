@@ -3,7 +3,7 @@ the classic pixelated that define [HackerNoon.com](https:hackernoon.com), are no
 
 CTA to Use via our 'Name' NPM Package. 
 
-You can see this icons live on [HackerNoon.com](https://hackernoon.com), and more specifically, [the HackerNoon mobile app](https://hackernoon.com/p/the-mobile-app](https://hackernoon.com/p/mobile-app) and [the HackerNoon Technology Categories](https://hackernoon.com/c/)
+You can see this icons live on [HackerNoon.com](https://hackernoon.com), and more specifically, [the HackerNoon mobile app](https://hackernoon.com/p/mobile-app](https://hackernoon.com/p/mobile-app) and [the HackerNoon Technology Categories](https://hackernoon.com/c/).
 
 This set of 113 original icons is available free to use with accreditation to HackerNoon. While they are all listed below, we also packaged it up to make the pixelated site icons NPM package (download) and [the pixelated site icons figma file](https://www.figma.com/file/Ge2OozAi0jAIqEAiArbO9A/HackerNoon-%7C-Pixelated-Icon-Library?type=design&node-id=0-1&t=cRzbN22MWyZOZpAK-0).
 
