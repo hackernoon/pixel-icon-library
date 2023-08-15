@@ -1,128 +1,41 @@
-# pixelated-site-icons
-the classic pixelated that define [HackerNoon.com](https:hackernoon.com), are now free to use on your own site :-) 
+# HackerNoon's Pixel Icon Library
+Introducing HackerNoon’s Pixel Icon Library, an open-source collection of 120+ Pixelated Icons. Meticulously designed on a 24px grid, ensuring perfect alignment and consistency to enrich your web/app experience. Inspired by HackerNoon’s retro design vibe, these icons capture the essence of the good old days.
 
-CTA to Use via our 'Name' NPM Package. 
+## What’s in the Pixel Icon Library?
+* 120+ Pixelated Icons
+* Light SVG Files - 64.7 KB for the entire collection.
+* PNG files in 12px, 16 px, 24px, and 48px for both Light/Dark Mode
+* Multiple Ways to Use  - Install via NPM Package (Coming Soon) or Directly via HTML & CSS.
 
-You can see this icons live on [HackerNoon.com](https://hackernoon.com), and more specifically, [the HackerNoon mobile app](https://hackernoon.com/p/mobile-app](https://hackernoon.com/p/mobile-app) and [the HackerNoon Technology Categories](https://hackernoon.com/c/).
+## Usage
 
-This set of 113 original icons is available free to use with accreditation to HackerNoon. While they are all listed below, we also packaged it up to make the pixelated site icons NPM package (download) and [the pixelated site icons figma file](https://www.figma.com/file/Ge2OozAi0jAIqEAiArbO9A/HackerNoon-%7C-Pixelated-Icon-Library?type=design&node-id=0-1&t=cRzbN22MWyZOZpAK-0).
+### Installation via NPM Package (Coming Soon🛠️)
 
-Cloud Upload
-Envelope
-External Link
-Lightbulb O
-Lock
-User
-Users
-Face Thinking
-Discourse
-Facebook
-Github
-Google
-Twitter
-Expand
-Check Light
-Cog
-Coins
-External Link Square
-Lightbulb Light
-Pencil Light
-Question
-Times Light
-Uploflad
-Angle Down
-Angle Right
-Angle Up
-Arrow Alt Circle Left
-Arrow Alt Circle Right
-Clock
-Comments
-Newspaper Regular
-Pencil
-Pencil Ruler
-Spinner Third
-Times Circle
-Trash Alt
-Unlock
-Analytics
-Angle Left
-Arrow Circle Down
-Arrow Circle Up
-Arrow Down
-Arrow Left
-Arrow Right
-Arrow Up
-Bars
-Bell Exclamation
-Bookmark
-Camera Retro
-Chart Network
-Check
-Chevron Down
-Chevron Up
-Circle Notch
-Cloud Download Alt
-Code
-Edit
-Exclamation
-Expand
-External Link Alt
-Eye
-File Import
-Hear
-Link
-Lock Open
-Minus
-Pen
-Plane Departure
-Plus
-Receipt
-Robot
-Save
-Search
-Share Alt
-Spinner
-Times Octagon
-Trash
-User Check
-User Headset
-Wallet
-Window Close
-Angellist
-Calendar
-Check Circle
-Download
-Exclamation Triangle
-Flag Checkered
-Refresh
-External Link
-Comment Quote
-Arrow Left
-Arrow Right
-Facebook Square
-Book Heart
-Box USD
-Pen Nib
-Users Crown
-Hockey Mask
-Vote Yeah
-Badge Check
-Bullhorn
-Chart Line
-Comment
-Copy
-Flag
-Globe Americas
-Headphones
-Info Circle
-Lightbulb On
-Newspaper 
-Pause
-People Carry
-Play
-Quote Left
-Quote Right
-Seedling
-Star
+### HTML Image
+```
+<img src="path/to/icon.svg" alt="icon title" />
+```
 
-Designed by Devansh and Kien. Read more in his HackerNoon story "Headline here". 
+### Inline HTML 
+You can paste the content of the icon file directly into your HTML code to display it on the page.
+```
+```
+### CSS 
+```
+```
+
+### Figma
+HackerNoon’s Pixel Icon Library is available as a Figma component library. To use the components, log in to your Figma account and duplicate the file to your drafts.
+
+ 
+# License (CC BY 4.0 International) 
+* The icons (.svg/.png) files are free to download and are licensed under CC 4.0 
+* By downloading, it is assumed that you agree with the terms mentioned in CC 4.0.
+* You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+* Other files in the repository which are not icons, are licensed under the MIT License.
+
+# Contribution
+For more info on how to contribute please check our [Contribution Guidelines](https://github.com/hackernoon/pixelated-site-icons/blob/main/CONTRIBUTING.md)
+
+
+**Designed with 💚 by Designers at HackerNoon**
