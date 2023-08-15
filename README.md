@@ -1,5 +1,5 @@
 
-!![Github Cover](https://github.com/hackernoon/pixelated-site-icons/assets/53912722/66089f04-580f-4eb5-85c3-427fbfd92208)
+![Github Cover](https://github.com/hackernoon/pixelated-site-icons/assets/53912722/66089f04-580f-4eb5-85c3-427fbfd92208)
 
 
 # HackerNoon's Pixel Icon Library
