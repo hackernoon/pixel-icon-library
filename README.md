@@ -11,6 +11,12 @@ Introducing HackerNoon’s Pixel Icon Library, an open-source collection of 120+
 
 ## Usage
 
+### HTML Image
+Using the ```<img />``` element directly in your HTML file.
+```
+<img src="path/to/icon.svg" alt="icon title" />
+```
+
 ### Inline HTML 
 You can paste the content of the icon file directly into your HTML code to display it on the page using the ```<svg> </svg>``` tag.
 ```
@@ -50,12 +56,6 @@ Most of the modern browsers have deprecated plugins, so this is not recommended.
 HackerNoon’s Pixel Icon Library is available as a Figma component library. To use the components, log in to your Figma account and duplicate the file to your drafts.
 
 ### Installation via NPM Package (Coming Soon🛠️)
-
-### HTML Image
-Using the ```<img />``` element directly in your HTML file.
-```
-<img src="path/to/icon.svg" alt="icon title" />
-```
  
 # License (CC BY 4.0 International) 
 * The icons (.svg/.png) files are free to download and are licensed under CC 4.0 
