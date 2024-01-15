@@ -1,13 +1,13 @@
-![Github Cover](https://github.com/hackernoon/pixel-icon-library/assets/53912722/70511474-f4dd-4f4c-a100-8773a0214516)
+[Github Cover](https://github.com/hackernoon/pixel-icon-library/assets/53912722/dbec42fc-d842-4fe7-b963-c0679b68d3ab)
 
 # HackerNoon's Pixel Icon Library
-Introducing HackerNoon’s Pixel Icon Library, an open-source collection of 120+ Pixelated Icons. Meticulously designed on a 24px grid, ensuring perfect alignment and consistency to enrich your web/app/product/page/life experience. Inspired by HackerNoon’s retro design vibe, these icons capture the essence of the internet's good old days.
+Introducing HackerNoon’s Pixel Icon Library V2, an open-source collection of 1440+ Pixelated Icons. Meticulously designed on a 24px grid, ensuring perfect alignment and consistency to enrich your web/app/product/page/life experience. Inspired by HackerNoon’s retro design vibe, these icons capture the essence of the internet's good old days.
 
 ## What’s in the Pixel Icon Library?
-* 120+ Pixelated Icons
-* Light SVG Files - 64.7 KB for the entire collection.
+* 360+ Unique Pixelated Vector Icons
+* Light SVG Files - 176.6 KB for the entire collection.
 * PNG files in 12px, 16 px, 24px, and 48px for both Light/Dark Mode
-* Multiple Ways to Use  - Install via NPM Package (Coming Soon), Directly via HTML & CSS, and via a Figma component library. 
+* Multiple Ways to Use  - Install via NPM Package, Directly via HTML & CSS, and via a Figma component library. 
 
 ## Usage
 
