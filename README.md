@@ -1,4 +1,4 @@
-[Github Cover](https://github.com/hackernoon/pixel-icon-library/assets/53912722/dbec42fc-d842-4fe7-b963-c0679b68d3ab)
+![Github Cover](https://github.com/hackernoon/pixel-icon-library/assets/53912722/e7527cc9-424d-43ec-a481-78730d1a7d95)
 
 # HackerNoon's Pixel Icon Library
 Introducing HackerNoon’s Pixel Icon Library V2, an open-source collection of 1440+ Pixelated Icons. Meticulously designed on a 24px grid, ensuring perfect alignment and consistency to enrich your web/app/product/page/life experience. Inspired by HackerNoon’s retro design vibe, these icons capture the essence of the internet's good old days.
