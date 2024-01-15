@@ -2,9 +2,8 @@
 name: Icon Request
 about: Template for Requesting a New Icon
 title: "[Icon Request: Name of the Icon]"
-labels: ''
-assignees: ''
-
+labels: ""
+assignees: ""
 ---
 
 **Name of the Icon along with a Brief Description**
