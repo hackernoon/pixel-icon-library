@@ -1,4 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M22 2V1H2V2H1V22H2V23H22V22H23V2H22ZM5 10H10V11H11V13H9V12H6V15H9V14H11V16H10V17H5V16H4V11H5V10ZM19 17H15V16H14V17H13V7H15V10H19V11H20V16H19V17Z" fill="black"/>
-<path d="M18 12H15V15H18V12Z" fill="black"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg id="Crunchbase" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m22,2v-1H2v1h-1v20h1v1h20v-1h1V2h-1ZM5,10h5v1h1v2h-2v-1h-3v3h3v-1h2v2h-1v1h-5v-1h-1v-5h1v-1Zm14,7h-4v-1h-1v1h-1V7h2v3h4v1h1v5h-1v1Z"/><rect x="15" y="12" width="3" height="3"/></svg>

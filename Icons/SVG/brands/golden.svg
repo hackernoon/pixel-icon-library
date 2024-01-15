@@ -1,7 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M7 9H6V10H7V9Z" fill="black"/>
-<path d="M23 9V15H22V16H21V18H20V19H19V20H18V21H16V22H14V23H10V22H8V21H6V20H5V19H4V11H5V13H6V15H7V16H9V17H14V16H16V15H17V14H18V12H19V11H20V5H21V7H22V9H23Z" fill="black"/>
-<path d="M6 10H5V11H6V10Z" fill="black"/>
-<path d="M17 11H16V12H17V11Z" fill="black"/>
-<path d="M4 10H3V17H2V14H1V9H2V7H3V5H4V4H5V3H7V2H9V1H15V2H17V3H18V4H19V10H18V11H17V8H15V7H7V8H5V9H4V10Z" fill="black"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg id="Golden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="6" y="9" width="1" height="1"/><polygon points="23 9 23 15 22 15 22 16 21 16 21 18 20 18 20 19 19 19 19 20 18 20 18 21 16 21 16 22 14 22 14 23 10 23 10 22 8 22 8 21 6 21 6 20 5 20 5 19 4 19 4 11 5 11 5 13 6 13 6 15 7 15 7 16 9 16 9 17 14 17 14 16 16 16 16 15 17 15 17 14 18 14 18 12 19 12 19 11 20 11 20 5 21 5 21 7 22 7 22 9 23 9"/><rect x="5" y="10" width="1" height="1"/><rect x="16" y="11" width="1" height="1"/><polygon points="4 10 3 10 3 17 2 17 2 14 1 14 1 9 2 9 2 7 3 7 3 5 4 5 4 4 5 4 5 3 7 3 7 2 9 2 9 1 15 1 15 2 17 2 17 3 18 3 18 4 19 4 19 10 18 10 18 11 17 11 17 8 15 8 15 7 7 7 7 8 5 8 5 9 4 9 4 10"/></svg>

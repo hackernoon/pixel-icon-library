@@ -1,4 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15 9V11H14V12H10V8H14V9H15Z" fill="black"/>
-<path d="M22 9V7H21V5H20V4H19V3H17V2H15V1H9V2H7V3H5V4H4V5H3V7H2V9H1V15H2V17H3V19H4V20H5V21H7V22H9V23H15V22H17V21H19V20H20V19H21V17H22V15H23V9H22ZM16 13H14V14H10V18H8V6H14V7H16V8H17V12H16V13Z" fill="black"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg id="Product_Hunt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="15 9 15 11 14 11 14 12 10 12 10 8 14 8 14 9 15 9"/><path d="m22,9v-2h-1v-2h-1v-1h-1v-1h-2v-1h-2v-1h-6v1h-2v1h-2v1h-1v1h-1v2h-1v2h-1v6h1v2h1v2h1v1h1v1h2v1h2v1h6v-1h2v-1h2v-1h1v-1h1v-2h1v-2h1v-6h-1Zm-6,4h-2v1h-4v4h-2V6h6v1h2v1h1v4h-1v1Z"/></svg>
