@@ -6,7 +6,7 @@ Introducing HackerNoon’s Pixel Icon Library V2, an open-source collection of 1
 
 ## What’s in the Pixel Icon Library?
 
-- 360+ Unique Pixelated Vector Icons
+- 360+ Unique Pixelated Vector Icons. 4 variations per icon to better match your project aesthetic. 
 - Light SVG Files - 176.6 KB for the entire collection.
 - PNG files in 12px, 16 px, 24px, and 48px for both Light/Dark Mode
 - Multiple Ways to Use - [Install via NPM Package](https://www.npmjs.com/package/@hackernoon/pixel-icon-library), Directly via HTML & CSS, and [via a Figma component library](https://www.figma.com/community/file/1278952394341234192/pixel-icon-library-1440-pixelated-icons-by-hackernoon).
