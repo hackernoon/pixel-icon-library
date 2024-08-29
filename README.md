@@ -69,7 +69,23 @@ Most of the modern browsers have deprecated plugins, so this is not recommended.
 
 HackerNoon’s Pixel Icon Library is available as a [Figma Community File](https://www.figma.com/community/file/1278952394341234192/Pixel-Icon-Library-%7C-120%2B-Pixelated-Icons-By-HackerNoon). To use the components, log in to your Figma account and duplicate the file to your drafts.
 
-### [Installation via NPM Package](https://www.npmjs.com/package/@hackernoon/pixel-icon-library)
+
+## [Installation via NPM Package](https://www.npmjs.com/package/@hackernoon/pixel-icon-library)
+
+### Installing NPM Package
+```
+npm i @hackernoon/pixel-icon-library
+```
+
+### Importing CSS Classes
+```
+<link rel="stylesheet" href="path/to/@hackernoon/pixel-icon-library/fonts/iconfont.css">
+```
+
+### Displaying An Icon
+```
+<i class="hn hn-icon-name"></i>
+```
 
 # License (CC BY 4.0 International)
 
