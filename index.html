@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Icon Library | Open-Source Pixelated Icons By HackerNoon</title>
+    <link href="/src/output.css" rel="stylesheet">
+    <link href="/fonts/iconfont.css" rel="stylesheet">
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const searchInput = document.getElementById("icon-search");
+            const iconContainer = document.getElementById("icon-container");
+            const modal = document.getElementById("icon-modal");
+            const modalContent = document.getElementById("modal-content");
+            const closeModal = document.getElementById("close-modal");
+
+            if (searchInput) {
+                searchInput.addEventListener("input", function() {
+                    const query = searchInput.value.toLowerCase();
+                    const filteredIcons = icons.filter(icon => icon.includes(query));
+                    iconContainer.innerHTML = "";
+                    filteredIcons.forEach(icon => {
+                        const card = document.createElement("div");
+                        card.className = "p-4 border rounded-lg cursor-pointer icon-card";
+                        card.innerHTML = `<i class='hn hn-${icon} text-3xl'></i><p class='text-sm mt-2'>${icon}</p>`;
+                        card.onclick = () => {
+                            modalContent.innerHTML = `<i class='hn hn-${icon} text-5xl'></i><p class='text-lg mt-2'>${icon}</p>`;
+                            modal.showModal();
+                        };
+                        iconContainer.appendChild(card);
+                    });
+                });
+            } else {
+                console.warn('Element with ID "icon-search" not found.');
+            }
+        });
+    </script>
+</head>
+<body class="font-inter bg-[#101010] text-[#f5f5f5] flex flex-col min-h-screen">
+    <nav class="navbar bg-[#101010] py-4 px-8 flex justify-between items-center z-20 sticky top-0">
+        <div class="flex-[0_0_60%] md:flex-1 flex justify-start items-center">
+            <a href="index.html">
+                <img src="/assets/logo.svg" alt="Logo" class="h-8">
+            </a>
+        </div>
+        <!--
+        <div class="hidden md:flex gap-12 justify-center flex-1 text-center items-center">
+            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="about.html">About</a>
+            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="license.html">Usage & License</a>
+        </div>
+        -->
+        <div class="hidden md:flex gap-6 justify-end flex-1 items-center">
+            <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-2xl flex items-center justify-center" href="https://www.npmjs.com/package/@hackernoon/pixel-icon-library">
+                <i class="hn hn-npm"></i>
+            </a>
+            <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-2xl flex items-center justify-center" href="https://github.com/hackernoon/pixel-icon-library">
+                <i class="hn hn-github"></i>
+            </a>
+            <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-2xl flex items-center justify-center" href="https://www.figma.com/community/file/1278952394341234192/pixel-icon-library-1440-pixelated-icons-by-hackernoon">
+                <i class="hn hn-figma"></i>
+            </a>
+            <div>
+                <a href="/assets/pixel-icon-library-by-hackernoon.zip" download class="btn border border-[#00ff00] text-[#00ff00] font-semibold bg-[#101010] hover:bg-[#00ff00] hover:text-[#101010] px-4 py-3 rounded-[5px]">
+                    Download Bundle
+                </a>
+            </div>
+        </div>
+        <div class="flex-[0_0_40%] md:hidden flex justify-end items-center">
+            <button class="btn btn-ghost text-2xl flex items-center justify-center" id="hamburger-btn">
+                <i id="hamburger-icon" class="hn hn-bars-solid"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <div id="mobile-menu" class="hidden fixed top-16 left-0 w-full z-20 bg-[#101010] text-white p-4">
+        <!--
+        <div class="flex flex-col items-center space-y-2">
+            <a class="block py-3 px-4 hover:text-[#00ff00] font-semibold text-base text-center" href="about.html">About</a>
+            <a class="block py-3 px-4 hover:text-[#00ff00] font-semibold text-base text-center" href="license.html">Usage & License</a>
+        </div>
+        -->
+        <div class="flex justify-center mt-6 gap-6">
+            <button class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl">
+                <i class="hn hn-npm"></i>
+            </button>
+            <button class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl">
+                <i class="hn hn-github"></i>
+            </button>
+            <button class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl">
+                <i class="hn hn-figma"></i>
+            </button>
+        </div>
+        <div class="flex justify-center mt-6">
+            <a href="/assets/pixel-icon-library-by-hackernoon.zip" download class="btn border border-[#00ff00] text-[#00ff00] font-semibold bg-[#101010] hover:bg-[#00ff00] hover:text-[#101010] px-4 py-3 rounded-[5px]">
+                Download Bundle
+            </a>
+        </div>
+    </div>
+    
+    <main class="flex-grow">
+        <div class="container mx-auto p-6 text-center">
+            <div class="max-w-[860px] mx-auto">
+                <h1 class="text-[#00ff00] mt-24 text-4xl font-hackernoon">Pixel Icon Library</h1>
+                <p class="mt-9 text-base md:text-lg leading-relaxed">Introducing HackerNoon's Pixel Icon Library, an open-source collection Pixelated Icons. Meticulously designed on a 24px grid, ensuring perfect alignment and consistency to enrich your web/app/product/page/life experience.</p>
+                <img src="/assets/badge.svg" alt="Badge" class="mx-auto mt-4 mb-24">
+                <div class="mt-20 flex flex-col items-center gap-4">
+                    <div class="w-full">
+                        <div class="relative">
+                            <i class="hn hn-search absolute left-4 top-1/2 transform -translate-y-1/2 text-[#e0e0e0]"></i>
+                            <input type="text" id="icon-search" class="w-full pl-12 pr-4 py-4 border-2 border-transparent focus:border-[#424242] focus:outline-none bg-[#212121] text-[#e0e0e0] rounded" placeholder="Search for pixelated icons">
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 justify-center overflow-x-auto">
+                        <button class="filter-button px-4 py-2 text-[14px] bg-[#424242] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="all">All</button>
+                        <button class="filter-button px-4 py-2 text-[14px] bg-[#212121] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="solid">Solid</button>
+                        <button class="filter-button px-4 py-2 text-[14px] bg-[#212121] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="regular">Regular</button>
+                        <button class="filter-button px-4 py-2 text-[14px] bg-[#212121] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="brands">Brands</button>
+                        <button class="filter-button px-4 py-2 text-[14px] bg-[#212121] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="purcats">PurrCats</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center px-4">
+                    <div id="icon-cards" class="flex flex-wrap justify-center gap-4 mt-16 mb-48 w-full">
+                    <!-- Icons will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="bg-[#212121] text-white p-8 flex flex-col md:flex-row justify-between items-start mt-auto">
+        <div class="flex-1 mb-12 md:mb-0">
+            <img src="/assets/logo.svg" alt="Logo" class="h-8 mx-auto md:mx-0">
+        </div>
+        <div class="flex-1">
+            <!--
+            <div class="flex flex-col md:flex-row justify-center md:justify-end gap-6 mb-6 text-[#eeeeee] text-[14px]">
+                <a class="hover:text-[#00ff00]" href="about.html">About</a>
+                <a class="hover:text-[#00ff00]" href="license.html">Usage & License</a>
+            </div>
+            -->
+            <div class="flex justify-center md:justify-end gap-6 text-[#eeeeee]">
+                <a class="btn btn-square btn-ghost hover:text-[#00ff00]" href="https://www.npmjs.com/package/@hackernoon/pixel-icon-library">
+                    <i class="hn hn-npm"></i>
+                </a>
+                <a class="btn btn-square btn-ghost hover:text-[#00ff00]" href="https://github.com/hackernoon/pixel-icon-library">
+                    <i class="hn hn-github"></i>
+                </a>
+                <a class="btn btn-square btn-ghost hover:text-[#00ff00]" href="https://www.figma.com/community/file/1278952394341234192/pixel-icon-library-1440-pixelated-icons-by-hackernoon">
+                    <i class="hn hn-figma"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <div id="icon-modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-40">
+        <div class="bg-[#212121] rounded-lg p-8 max-w-sm w-full">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="bg-[#101010] p-6 rounded" id="icon-display">
+                    <!-- Icon will be inserted here -->
+                </div>
+                <div>
+                    <div id="icon-title" class="text-[#f5f5f5] text-lg font-bold break-words max-w-xs mx-auto"></div>
+                    <div id="icon-tag" class="text-[#f5f5f5] text-sm"></div>
+                </div>
+            </div>
+            <div class="bg-[#101010] p-4 rounded mb-4 flex items-center justify-between" style="width: 320px;">
+                <code id="icon-code" class="text-[#f5f5f5]">&lt;i class="hn hn-icon-name"&gt;&lt;/i&gt;</code>
+                <button id="copy-code" class="bg-[#424242] p-2 rounded transition-colors flex items-center justify-center cursor-pointer">
+                    <i class="hn hn-copy text-[#f5f5f5] text-base transition-colors"></i>
+                </button>
+            </div>
+            <button id="download-svg" class="w-full bg-[#00ff00] text-[#101010] font-semibold py-2 rounded hover:bg-[#424242] hover:text-[#f5f5f5] transition-colors cursor-pointer" style="width: 320px;">Download SVG</button>
+        </div>
+    </div>
+
+    <script>
+        async function loadIcons() {
+            try {
+                const response = await fetch('./data/icons.json');
+                const data = await response.json();
+                const iconContainer = document.getElementById('icon-cards');
+                let currentFilterValue = 'all';
+
+                // Create icon cards; when there's a search term, lazy loading is disabled.
+                function createIconCards(icons, filter, searchTerm = '') {
+                    // Clear icon container
+                    iconContainer.innerHTML = '';
+
+                    // Only create the Intersection Observer if no search term is provided.
+                    let observer = null;
+                    if (!searchTerm.trim()) {
+                        observer = new IntersectionObserver((entries, observerInstance) => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    entry.target.classList.add('opacity-100');
+                                    entry.target.classList.remove('opacity-0', 'translate-y-4');
+                                    observerInstance.unobserve(entry.target);
+                                }
+                            });
+                        }, { threshold: 0.1 });
+                    }
+
+                    icons.forEach(icon => {
+                        // Apply filter and search term
+                        if ((filter === 'all' || icon.tags.includes(filter)) &&
+                            icon.name.toLowerCase().includes(searchTerm.toLowerCase())) {
+
+                            const card = document.createElement('div');
+                            // If a search term exists, show card immediately,
+                            // otherwise start with lazy loading classes.
+                            if (searchTerm.trim()) {
+                                card.className = 'icon-card p-6 rounded cursor-pointer text-center transition-all duration-180 opacity-100 translate-y-0';
+                            } else {
+                                card.className = 'icon-card p-6 rounded cursor-pointer text-center transition-all duration-180 opacity-0 translate-y-4';
+                            }
+
+                            card.style.width = '84px';
+                            card.style.height = '84px';
+                            card.style.backgroundColor = 'transparent';
+                            card.dataset.icon = JSON.stringify(icon);
+
+                            // Insert the icon SVG
+                            card.innerHTML = `<div class="w-[36px] h-[36px] mx-auto">${icon.svg}</div>`;
+
+                            // Append to the icon container
+                            iconContainer.appendChild(card);
+
+                            // If observer is active (i.e. no search), observe the card
+                            if (observer) {
+                                observer.observe(card);
+                            }
+
+                            // Add hover effects
+                            card.addEventListener('mouseenter', () => {
+                                card.style.backgroundColor = '#212121';
+                            });
+                            card.addEventListener('mouseleave', () => {
+                                card.style.backgroundColor = 'transparent';
+                            });
+
+                            // Add click event for modal
+                            card.addEventListener('click', function() {
+                                const iconData = JSON.parse(this.dataset.icon);
+                                iconDisplay.innerHTML = `<i class="hn hn-${iconData.name} text-[#f5f5f5] text-4xl"></i>`;
+                                iconTitle.textContent = iconData.name.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
+                                iconTag.textContent = iconData.tags.join(', ');
+                                iconCode.textContent = `<i class="hn hn-${iconData.name}"></i>`;
+                                downloadButton.onclick = function() {
+                                    const blob = new Blob([iconData.svg], { type: 'image/svg+xml' });
+                                    const url = URL.createObjectURL(blob);
+                                    const a = document.createElement('a');
+                                    a.href = url;
+                                    a.download = `${iconData.name}.svg`;
+                                    a.click();
+                                    URL.revokeObjectURL(url);
+                                };
+                                modal.classList.remove('hidden');
+                            });
+                        }
+                    });
+
+                    // Apply styles to SVGs
+                    document.querySelectorAll('.icon-card svg').forEach(svg => {
+                        svg.style.fill = '#f5f5f5'; // Default color
+                        svg.style.transition = 'fill 0.3s';
+                    });
+
+                    // Add hover effect for SVGs
+                    document.querySelectorAll('.icon-card').forEach(card => {
+                        card.addEventListener('mouseenter', () => {
+                            card.querySelector('svg').style.fill = '#00ff00';
+                        });
+                        card.addEventListener('mouseleave', () => {
+                            card.querySelector('svg').style.fill = '#f5f5f5';
+                        });
+                        card.addEventListener('click', () => {
+                            card.querySelector('svg').style.fill = '#00ff00';
+                        });
+                    });
+                }
+
+                // Initially load all icons
+                createIconCards(data.icons, 'all');
+
+                // Filter buttons click handlers
+                document.querySelectorAll('.filter-button').forEach(button => {
+                    button.addEventListener('click', () => {
+                        const filter = button.dataset.filter;
+                        currentFilterValue = filter;
+                        const searchTerm = document.getElementById('icon-search').value;
+                        createIconCards(data.icons, filter, searchTerm);
+
+                        // Update button styles
+                        document.querySelectorAll('.filter-button').forEach(btn => {
+                            btn.classList.remove('bg-[#424242]');
+                            btn.classList.add('bg-[#212121]');
+                        });
+                        button.classList.add('bg-[#424242]');
+                    });
+                });
+
+                // "Search" functionality: re-create icon cards without lazy loading when a search is performed.
+                document.getElementById('icon-search').addEventListener('input', (e) => {
+                    const searchTerm = e.target.value;
+                    createIconCards(data.icons, currentFilterValue, searchTerm);
+                });
+
+                // Modal interaction
+                const modal = document.getElementById('icon-modal');
+                const iconDisplay = document.getElementById('icon-display');
+                const iconTitle = document.getElementById('icon-title');
+                const iconTag = document.getElementById('icon-tag');
+                const iconCode = document.getElementById('icon-code');
+                const downloadButton = document.getElementById('download-svg');
+                const copyButton = document.getElementById('copy-code');
+
+                copyButton.addEventListener('click', function() {
+                    navigator.clipboard.writeText(iconCode.textContent).then(() => {
+                        copyButton.innerHTML = '<span style="font-size: 12px;">Copied!</span>';
+                        setTimeout(() => {
+                            copyButton.innerHTML = '<i class="hn hn-copy text-[#f5f5f5] text-base transition-colors"></i>';
+                        }, 2000);
+                    });
+                });
+
+                modal.addEventListener('click', function(event) {
+                    if (event.target === modal) {
+                        modal.classList.add('hidden');
+                    }
+                });
+
+            } catch (error) {
+                console.error('Error loading icons:', error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadIcons);
+
+        document.getElementById('hamburger-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            const icon = document.getElementById('hamburger-icon');
+            menu.classList.toggle('hidden');
+            icon.classList.toggle('hn-bars-solid');
+            icon.classList.toggle('hn-times-solid');
+        });
+    </script>
+</body>
+</html>

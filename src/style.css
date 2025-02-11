@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import "tailwindcss";
+@font-face {
+    font-family: Hacker Noon V1;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("https://storage.googleapis.com/hackernoon/fonts/HackerNoonV1-Regular.ttf") format("truetype");
+  }
+@theme {
+    --font-hackernoon: "Hacker Noon V1", sans-serif; 
+    --font-inter: "Inter", sans-serif;
+    }
+.active-link {
+    color: #00ff00;
+}
