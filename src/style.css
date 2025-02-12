@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: url("https://storage.googleapis.com/hackernoon/fonts/HackerNoonV1-Regular.ttf") format("truetype");
+    src: url("/fonts/HackerNoonV1-Regular.ttf") format("truetype");
   }
 @theme {
     --font-hackernoon: "Hacker Noon V1", sans-serif; 

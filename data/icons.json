@@ -3,308 +3,308 @@
     {
       "name": "android",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"android\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"5\" y=\"10\" width=\"1\" height=\"2\"/><rect x=\"18\" y=\"10\" width=\"1\" height=\"2\"/><path d=\"m22,20v-2h-1v-1h-1v-1h-1v-1h-1v-3h-1v2h-2v-1h-6v1h-2v-2h-1v3h-1v1h-1v1h-1v1h-1v2h-1v3h22v-3h-1Zm-14-2v2h-2v-2h2Zm8,0h2v2h-2v-2Z\"/><g id=\"BG_copy_139\"><rect width=\"24\" height=\"24\" fill=\"none\"/></g></svg>"
     },
     {
       "name": "angellist",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"angellist\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"18\" y=\"12\" width=\"1\" height=\"7\"/><rect x=\"18\" y=\"2\" width=\"1\" height=\"3\"/><rect x=\"17\" y=\"19\" width=\"1\" height=\"1\"/><rect x=\"17\" y=\"11\" width=\"1\" height=\"1\"/><rect x=\"17\" y=\"5\" width=\"1\" height=\"3\"/><rect x=\"16\" y=\"20\" width=\"1\" height=\"1\"/><rect x=\"16\" y=\"8\" width=\"1\" height=\"2\"/><rect x=\"16\" y=\"1\" width=\"2\" height=\"1\"/><rect x=\"14\" y=\"10\" width=\"3\" height=\"1\"/><rect x=\"15\" y=\"2\" width=\"1\" height=\"2\"/><rect x=\"14\" y=\"21\" width=\"2\" height=\"1\"/><rect x=\"14\" y=\"4\" width=\"1\" height=\"3\"/><rect x=\"13\" y=\"19\" width=\"1\" height=\"1\"/><polygon points=\"14 7 14 10 11 10 11 9 12 9 12 7 14 7\"/><polygon points=\"16 13 16 14 15 14 15 15 14 15 14 16 13 16 13 19 12 19 12 18 11 18 11 19 10 19 10 17 12 17 12 14 11 14 11 13 16 13\"/><rect x=\"11\" y=\"4\" width=\"1\" height=\"3\"/><rect x=\"10\" y=\"22\" width=\"4\" height=\"1\"/><rect x=\"10\" y=\"12\" width=\"1\" height=\"1\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"2\"/><rect x=\"9\" y=\"16\" width=\"1\" height=\"1\"/><polygon points=\"11 10 11 11 10 11 10 12 9 12 9 11 7 11 7 10 9 10 9 8 10 8 10 10 11 10\"/><rect x=\"8\" y=\"21\" width=\"2\" height=\"1\"/><rect x=\"8\" y=\"19\" width=\"2\" height=\"1\"/><rect x=\"8\" y=\"15\" width=\"1\" height=\"1\"/><rect x=\"8\" y=\"5\" width=\"1\" height=\"3\"/><rect x=\"8\" y=\"1\" width=\"2\" height=\"1\"/><rect x=\"7\" y=\"20\" width=\"1\" height=\"1\"/><rect x=\"7\" y=\"18\" width=\"1\" height=\"1\"/><rect x=\"7\" y=\"2\" width=\"1\" height=\"3\"/><rect x=\"6\" y=\"19\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"17\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"11\" width=\"1\" height=\"3\"/><rect x=\"5\" y=\"18\" width=\"1\" height=\"1\"/><rect x=\"5\" y=\"14\" width=\"3\" height=\"1\"/><rect x=\"4\" y=\"15\" width=\"1\" height=\"3\"/></svg>"
     },
     {
       "name": "apple",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"apple\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M15 1V4H14V5H13V6H11V3H12V2H13V1H15Z\"  />\n<path d=\"M21 17V18H20V20H19V21H18V22H17V23H15V22H10V23H8V22H7V21H6V20H5V19H4V17H3V10H4V8H5V7H7V6H10V7H14V6H17V7H19V8H20V9H19V10H18V15H19V16H20V17H21Z\"  /></svg>"
     },
     {
       "name": "behance",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"behance\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M22,11V10H21V9H15v1H14v1H13v6h1v1h1v1h6V18h1V17h1V16H20v1H17V16H16V15h7V11Zm-6,2V11h4v2Z\"/><rect x=\"15\" y=\"6\" width=\"6\" height=\"2\"/><path d=\"M11,13V12H10V10h1V7H10V6H9V5H1V19h9V18h1V17h1V13ZM4,7H7V8H8v2H7v1H4Zm5,9H8v1H4V13H8v1H9Z\"/></svg>"
     },
     {
       "name": "bloomberg",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"bloomberg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m22,2v-1H2v1h-1v20h1v1h20v-1h1V2h-1Zm-15,3h7v1h1v1h1v4h-1v1h1v1h1v4h-1v1h-1v1H7V5Z\"/><polygon points=\"15 14 15 16 14 16 14 17 9 17 9 13 14 13 14 14 15 14\"/><polygon points=\"14 8 14 10 13 10 13 11 9 11 9 7 13 7 13 8 14 8\"/></svg>"
     },
     {
       "name": "bluesky",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"bluesky\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23 3V11H22V13H20V14H18V15H20V16H21V19H20V20H19V21H17V22H15V21H14V20H13V18H11V20H10V21H9V22H7V21H5V20H4V19H3V16H4V15H6V14H4V13H2V11H1V3H2V2H4V3H6V4H7V5H8V6H9V7H10V9H11V10H13V9H14V7H15V6H16V5H17V4H18V3H20V2H22V3H23Z\"  /></svg>"
     },
     {
       "name": "crunchbase",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"crunchbase\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m22,2v-1H2v1h-1v20h1v1h20v-1h1V2h-1ZM5,10h5v1h1v2h-2v-1h-3v3h3v-1h2v2h-1v1h-5v-1h-1v-5h1v-1Zm14,7h-4v-1h-1v1h-1V7h2v3h4v1h1v5h-1v1Z\"/><rect x=\"15\" y=\"12\" width=\"3\" height=\"3\"/></svg>"
     },
     {
       "name": "digg",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"digg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"8\" y=\"5\" width=\"2\" height=\"2\"/><path d=\"m5,5v3h-3v8h5V5h-2Zm0,9h-1v-4h1v4Z\"/><rect x=\"8\" y=\"8\" width=\"2\" height=\"8\"/><path d=\"m11,8v8h3v1h-3v2h5v-11h-5Zm2,2h1v4h-1v-4Z\"/><path d=\"m17,8v8h3v1h-3v2h5v-11h-5Zm2,2h1v4h-1v-4Z\"/></svg>"
     },
     {
       "name": "discord",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"discord\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M22,11V8H21V6H20V5H18V4H15V5H9V4H6V5H4V6H3V8H2v3H1v7H3v1H5v1H7V18H6V17H8v1H9v1h6V18h1V17h2v1H17v2h2V19h2V18h2V11ZM9,15H7V14H6V12H7V11H9v1h1v2H9Zm9-1H17v1H15V14H14V12h1V11h2v1h1Z\"/></svg>"
     },
     {
       "name": "discourse",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"discourse\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m22,9v-2h-1v-2h-1v-1h-1v-1h-2v-1h-2v-1h-6v1h-2v1h-2v1h-1v1h-1v2h-1v2h-1v14h14v-1h2v-1h2v-1h1v-1h1v-2h1v-2h1v-6h-1Zm-5-1v1h1v6h-1v1h-1v1h-1v1h-5v-1h-1v1h-2v1h-2v-1h1v-2h1v-1h-1v-6h1v-1h1v-1h1v-1h6v1h1v1h1Z\"/></svg>"
     },
     {
       "name": "facebook-round",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"facebook-round\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"23 9 23 15 22 15 22 17 21 17 21 19 20 19 20 20 19 20 19 21 17 21 17 22 15 22 15 23 14 23 14 15 16 15 16 14 17 14 17 12 14 12 14 9 15 9 15 8 17 8 17 5 13 5 13 6 11 6 11 8 10 8 10 12 7 12 7 15 10 15 10 23 9 23 9 22 7 22 7 21 5 21 5 20 4 20 4 19 3 19 3 17 2 17 2 15 1 15 1 9 2 9 2 7 3 7 3 5 4 5 4 4 5 4 5 3 7 3 7 2 9 2 9 1 15 1 15 2 17 2 17 3 19 3 19 4 20 4 20 5 21 5 21 7 22 7 22 9 23 9\"/></svg>"
     },
     {
       "name": "facebook-square",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"facebook-square\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"23 2 23 22 22 22 22 23 14 23 14 15 16 15 16 14 17 14 17 12 14 12 14 9 15 9 15 8 17 8 17 5 13 5 13 6 11 6 11 8 10 8 10 12 7 12 7 15 10 15 10 23 2 23 2 22 1 22 1 2 2 2 2 1 22 1 22 2 23 2\"/></svg>"
     },
     {
       "name": "figma",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"figma\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m18,3.5v-1h-1v-1H7v1h-1v1h-1v3h1v1h1v2h-1v1h-1v3h1v1h1v2h-1v1h-1v3h1v1h1v1h5v-1h1v-6h4v-1h1v-1h1v-3h-1v-1h-1v-2h1v-1h1v-3h-1Zm-7,18h-3v-1h-1v-3h1v-1h3v5Zm0-7h-3v-1h-1v-3h1v-1h3v5Zm0-7h-3v-1h-1v-3h1v-1h3v5Zm6,3v3h-1v1h-2v-1h-1v-3h1v-1h2v1h1Zm-1-4v1h-3V2.5h3v1h1v3h-1Z\"/></svg>"
     },
     {
       "name": "giphy",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"giphy\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"20 9 21 9 21 23 3 23 3 1 12 1 12 2 11 2 11 3 5 3 5 21 19 21 19 10 20 10 20 9\"/><polygon points=\"21 6 21 8 13 8 13 1 15 1 15 3 18 3 18 6 21 6\"/></svg>"
     },
     {
       "name": "github",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"github\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"23 9 23 15 22 15 22 17 21 17 21 19 20 19 20 20 19 20 19 21 18 21 18 22 16 22 16 23 15 23 15 18 14 18 14 17 15 17 15 16 17 16 17 15 18 15 18 14 19 14 19 9 18 9 18 6 16 6 16 7 15 7 15 8 14 8 14 7 10 7 10 8 9 8 9 7 8 7 8 6 6 6 6 9 5 9 5 14 6 14 6 15 7 15 7 16 9 16 9 18 7 18 7 17 6 17 6 16 4 16 4 17 5 17 5 19 6 19 6 20 9 20 9 23 8 23 8 22 6 22 6 21 5 21 5 20 4 20 4 19 3 19 3 17 2 17 2 15 1 15 1 9 2 9 2 7 3 7 3 5 4 5 4 4 5 4 5 3 7 3 7 2 9 2 9 1 15 1 15 2 17 2 17 3 19 3 19 4 20 4 20 5 21 5 21 7 22 7 22 9 23 9\"/></svg>"
     },
     {
       "name": "golden",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"golden\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"6\" y=\"9\" width=\"1\" height=\"1\"/><polygon points=\"23 9 23 15 22 15 22 16 21 16 21 18 20 18 20 19 19 19 19 20 18 20 18 21 16 21 16 22 14 22 14 23 10 23 10 22 8 22 8 21 6 21 6 20 5 20 5 19 4 19 4 11 5 11 5 13 6 13 6 15 7 15 7 16 9 16 9 17 14 17 14 16 16 16 16 15 17 15 17 14 18 14 18 12 19 12 19 11 20 11 20 5 21 5 21 7 22 7 22 9 23 9\"/><rect x=\"5\" y=\"10\" width=\"1\" height=\"1\"/><rect x=\"16\" y=\"11\" width=\"1\" height=\"1\"/><polygon points=\"4 10 3 10 3 17 2 17 2 14 1 14 1 9 2 9 2 7 3 7 3 5 4 5 4 4 5 4 5 3 7 3 7 2 9 2 9 1 15 1 15 2 17 2 17 3 18 3 18 4 19 4 19 10 18 10 18 11 17 11 17 8 15 8 15 7 7 7 7 8 5 8 5 9 4 9 4 10\"/></svg>"
     },
     {
       "name": "google-news",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"google-news\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m20,10v-1H4v1h-1v11h1v1h16v-1h1v-11h-1Zm-7,3h5v1h-5v-1Zm-2,5h-1v1h-4v-1h-1v-4h1v-1h4v1h-3v1h-1v2h1v1h2v-1h1v-1h-2v-1h3v3Zm7,0h-5v-1h5v1Zm-5-2v-1h6v1h-6Z\"/><polygon points=\"23 8 23 12 22 12 22 9 21 9 21 8 16 8 16 6 19 6 19 7 22 7 22 8 23 8\"/><polygon points=\"15 3 10 3 10 4 7 4 7 5 5 5 5 3 6 3 6 2 18 2 18 3 19 3 19 5 15 5 15 3\"/><polygon points=\"14 6 15 6 15 8 3 8 3 9 2 9 2 12 1 12 1 8 2 8 2 7 5 7 5 6 8 6 8 5 11 5 11 4 14 4 14 6\"/></svg>"
     },
     {
       "name": "google",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"google\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"23 10 23 15 22 15 22 17 21 17 21 19 20 19 20 20 19 20 19 21 17 21 17 22 15 22 15 23 9 23 9 22 7 22 7 21 5 21 5 20 4 20 4 19 3 19 3 17 2 17 2 15 1 15 1 9 2 9 2 7 3 7 3 5 4 5 4 4 5 4 5 3 7 3 7 2 9 2 9 1 15 1 15 2 17 2 17 3 19 3 19 5 18 5 18 6 17 6 17 7 15 7 15 6 9 6 9 7 7 7 7 9 6 9 6 15 7 15 7 17 9 17 9 18 15 18 15 17 17 17 17 15 18 15 18 14 12 14 12 10 23 10\"/></svg>"
     },
     {
       "name": "hackernoon",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"hackernoon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M5 6H3V9H5V6Z\"  />\n<path d=\"M3 9H1V15H3V9Z\"  />\n<path d=\"M5 15H3V18H5V15Z\"  />\n<path d=\"M17 18V23H5V18H8V20H14V18H17Z\"  />\n<path d=\"M19 15H17V18H19V15Z\"  />\n<path d=\"M23 11V13H21V15H19V9H21V11H23Z\"  />\n<path d=\"M19 6H17V9H19V6Z\"  />\n<path d=\"M17 1V6H14V4H12V13H10V4H8V6H5V1H17Z\"  /></svg>"
     },
     {
       "name": "huggingface",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"huggingface\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"20\" y=\"17\" width=\"1\" height=\"1\"/><rect x=\"19\" y=\"18\" width=\"1\" height=\"1\"/><rect x=\"18\" y=\"17\" width=\"1\" height=\"1\"/><rect x=\"19\" y=\"16\" width=\"1\" height=\"1\"/><rect x=\"20\" y=\"15\" width=\"1\" height=\"1\"/><rect x=\"19\" y=\"14\" width=\"1\" height=\"1\"/><rect x=\"18\" y=\"15\" width=\"1\" height=\"1\"/><rect x=\"17\" y=\"16\" width=\"1\" height=\"1\"/><rect x=\"17\" y=\"14\" width=\"1\" height=\"1\"/><rect x=\"16\" y=\"15\" width=\"1\" height=\"1\"/><polygon points=\"19 19 19 20 14 20 14 17 15 17 15 16 16 16 16 17 17 17 17 18 18 18 18 19 19 19\"/><rect x=\"22\" y=\"15\" width=\"1\" height=\"5\"/><rect x=\"21\" y=\"8\" width=\"1\" height=\"7\"/><rect x=\"20\" y=\"20\" width=\"2\" height=\"1\"/><rect x=\"20\" y=\"6\" width=\"1\" height=\"2\"/><rect x=\"19\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"18\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"16\" y=\"3\" width=\"2\" height=\"1\"/><rect x=\"14\" y=\"21\" width=\"6\" height=\"1\"/><rect x=\"10\" y=\"20\" width=\"4\" height=\"1\"/><rect x=\"8\" y=\"2\" width=\"8\" height=\"1\"/><rect x=\"7\" y=\"15\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"3\" width=\"2\" height=\"1\"/><rect x=\"6\" y=\"16\" width=\"1\" height=\"1\"/><rect x=\"6\" y=\"14\" width=\"1\" height=\"1\"/><polygon points=\"10 17 10 20 5 20 5 19 6 19 6 18 7 18 7 17 8 17 8 16 9 16 9 17 10 17\"/><rect x=\"5\" y=\"17\" width=\"1\" height=\"1\"/><rect x=\"5\" y=\"15\" width=\"1\" height=\"1\"/><rect x=\"5\" y=\"4\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"21\" width=\"6\" height=\"1\"/><rect x=\"4\" y=\"18\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"16\" width=\"1\" height=\"1\"/><rect x=\"4\" y=\"14\" width=\"1\" height=\"1\"/><path d=\"m19,9v-2h-1v-1h-1v-1h-2v-1h-6v1h-2v1h-1v1h-1v2h-1v4h3v1h1v1h1v1h1v1h1v2h2v-2h1v-1h1v-1h1v-1h1v-1h3v-4h-1Zm-12,1h-1v-1h1v1Zm1,0v-2h2v1h-1v1h-1Zm7,3h-1v1h-1v-1h-2v1h-1v-1h-1v-2h1v1h4v-1h1v2Zm1-3h-1v-1h-1v-1h2v2Zm2,0h-1v-1h1v1Z\"/><rect x=\"4\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"2\" y=\"20\" width=\"2\" height=\"1\"/><rect x=\"3\" y=\"17\" width=\"1\" height=\"1\"/><rect x=\"3\" y=\"15\" width=\"1\" height=\"1\"/><rect x=\"3\" y=\"6\" width=\"1\" height=\"2\"/><rect x=\"2\" y=\"8\" width=\"1\" height=\"7\"/><rect x=\"1\" y=\"15\" width=\"1\" height=\"5\"/></svg>"
     },
     {
       "name": "imgur",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"imgur\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"15\" y=\"17\" width=\"1\" height=\"1\"/><path d=\"m15,17v-1h-2v1h-1v1h-1v1h1v1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h-1v-2h-1v1h-1v-1h-1v-1h1v-1h1v1h1v-1h1v-1h1v-1h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v1h-1v1h-1v1H1v9h1v1h1v1h8v-1h1v-1h1v-1h1v-1h1v-1h-1v-1h1Zm-12,3h-1v-1h1v1Zm0-3h1v1h-1v-1Zm4,4h-1v1h-1v-1h-1v-1h1v-1h1v1h1v1Zm3,1h-1v-1h1v1Z\"/><polygon points=\"23 3 23 21 22 21 22 22 21 22 21 23 13 23 13 22 14 22 14 21 15 21 15 20 16 20 16 19 17 19 17 18 18 18 18 17 19 17 19 5 7 5 7 6 6 6 6 7 5 7 5 8 4 8 4 9 3 9 3 10 2 10 2 11 1 11 1 3 2 3 2 2 3 2 3 1 21 1 21 2 22 2 22 3 23 3\"/><polygon points=\"13 15 12 15 12 16 11 16 11 17 10 17 10 18 8 18 8 17 7 17 7 16 6 16 6 14 7 14 7 13 8 13 8 12 9 12 9 11 10 11 10 9 9 9 9 8 8 8 8 7 9 7 9 6 18 6 18 15 17 15 17 16 16 16 16 15 15 15 15 14 13 14 13 15\"/></svg>"
     },
     {
       "name": "instagram",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"instagram\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m17,9v-1h-1v-1h-1v-1h-6v1h-1v1h-1v1h-1v6h1v1h1v1h1v1h6v-1h1v-1h1v-1h1v-6h-1Zm-1,5h-1v1h-1v1h-4v-1h-1v-1h-1v-4h1v-1h1v-1h4v1h1v1h1v4Z\"/><path d=\"m22,5v-2h-1v-1h-2v-1H5v1h-2v1h-1v2h-1v14h1v2h1v1h2v1h14v-1h2v-1h1v-2h1V5h-1Zm-1,14h-1v1h-1v1H5v-1h-1v-1h-1V5h1v-1h1v-1h14v1h1v1h1v14Z\"/><rect x=\"17\" y=\"5\" width=\"2\" height=\"2\"/></svg>"
     },
     {
       "name": "ios",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"ios\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"15 1 15 4 14 4 14 5 13 5 13 6 11 6 11 3 12 3 12 2 13 2 13 1 15 1\"/><polygon points=\"21 17 21 18 20 18 20 20 19 20 19 21 18 21 18 22 17 22 17 23 15 23 15 22 10 22 10 23 8 23 8 22 7 22 7 21 6 21 6 20 5 20 5 19 4 19 4 17 3 17 3 10 4 10 4 8 5 8 5 7 7 7 7 6 10 6 10 7 14 7 14 6 17 6 17 7 19 7 19 8 20 8 20 9 19 9 19 10 18 10 18 15 19 15 19 16 20 16 20 17 21 17\"/><g id=\"BG_copy_140\"><rect width=\"24\" height=\"24\" fill=\"none\"/></g></svg>"
     },
     {
       "name": "kaggle",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"kaggle\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 15V16H13V17H14V18H15V19H16V20H17V21H18V22H19V23H15V22H14V21H13V20H12V19H11V18H9V19H8V23H5V1H8V15H9V14H10V13H11V12H12V11H13V10H14V9H15V8H19V9H18V10H17V11H16V12H15V13H14V14H13V15H12Z\"  /></svg>"
     },
     {
       "name": "linkedin",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"linkedin\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m22,2v-1H2v1h-1v20h1v1h20v-1h1V2h-1Zm-9,10v8h-3v-11h3v1h1v-1h4v1h1v10h-3v-8h-3Zm-9-4v-3h3v3h-3Zm3,1v11h-3v-11h3Z\"/></svg>"
     },
     {
       "name": "mastadon",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"mastadon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m22,7v-3h-1v-1h-1v-1h-1v-1H5v1h-1v1h-1v1h-1v3h-1v9h1v3h1v1h1v1h1v1h2v1h7v-1h2v-2h-7v-1h-1v-2h1v1h9v-1h2v-1h1v-1h1v-2h1v-6h-1Zm-3,7h-3v-7h-2v1h-1v4h-2v-4h-1v-1h-2v7h-3V6h1v-1h1v-1h3v1h1v1h2v-1h1v-1h3v1h1v1h1v8Z\"/></svg>"
     },
     {
       "name": "minds",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"minds\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"15 18 15 22 14 22 14 23 10 23 10 22 9 22 9 18 15 18\"/><polygon points=\"19 5 19 12 18 12 18 13 17 13 17 14 16 14 16 17 8 17 8 14 7 14 7 13 6 13 6 12 5 12 5 5 6 5 6 4 7 4 7 3 8 3 8 2 9 2 9 1 15 1 15 2 16 2 16 3 17 3 17 4 18 4 18 5 19 5\"/></svg>"
     },
     {
       "name": "newsbreak",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"newsbreak\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"23 2 23 6 22 6 22 12 21 12 21 17 20 17 20 18 18 18 18 19 16 19 16 20 14 20 14 21 12 21 12 20 11 20 11 18 10 18 10 16 9 16 9 14 8 14 8 15 7 15 7 16 6 16 6 17 5 17 5 19 4 19 4 20 3 20 3 21 2 21 2 22 1 22 1 19 2 19 2 15 3 15 3 11 4 11 4 7 5 7 5 6 7 6 7 5 9 5 9 4 11 4 11 3 13 3 13 5 14 5 14 7 15 7 15 9 16 9 16 11 18 11 18 9 19 9 19 7 20 7 20 5 21 5 21 3 22 3 22 2 23 2\"/></svg>"
     },
     {
       "name": "npm",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"npm\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m22,2v-1H2v1h-1v20h1v1h20v-1h1V2h-1Zm-10,6v11h-7V5h14v14h-3v-11h-4Z\"/></svg>"
     },
     {
       "name": "pinterest",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"pinterest\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"23 9 23 15 22 15 22 17 21 17 21 19 20 19 20 20 19 20 19 21 17 21 17 22 15 22 15 23 9 23 9 21 10 21 10 18 11 18 11 17 12 17 12 18 16 18 16 17 17 17 17 16 18 16 18 14 19 14 19 10 18 10 18 8 17 8 17 7 16 7 16 6 14 6 14 5 10 5 10 6 8 6 8 7 7 7 7 8 6 8 6 10 5 10 5 14 6 14 6 15 7 15 7 16 8 16 8 14 7 14 7 10 8 10 8 8 10 8 10 7 14 7 14 8 16 8 16 9 17 9 17 14 16 14 16 15 15 15 15 16 11 16 11 14 12 14 12 9 10 9 10 10 9 10 9 17 8 17 8 20 7 20 7 21 5 21 5 20 4 20 4 19 3 19 3 17 2 17 2 15 1 15 1 9 2 9 2 7 3 7 3 5 4 5 4 4 5 4 5 3 7 3 7 2 9 2 9 1 15 1 15 2 17 2 17 3 19 3 19 4 20 4 20 5 21 5 21 7 22 7 22 9 23 9\"/></svg>"
     },
     {
       "name": "podcasts",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"podcasts\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"9 14 8 14 8 12 11 12 11 11 8 11 8 9 11 9 11 8 8 8 8 6 11 6 11 5 8 5 8 3 9 3 9 2 10 2 10 1 14 1 14 2 15 2 15 3 16 3 16 5 13 5 13 6 16 6 16 8 13 8 13 9 16 9 16 11 13 11 13 12 16 12 16 14 15 14 15 15 14 15 14 16 10 16 10 15 9 15 9 14\"/><polygon points=\"19 12 19 15 18 15 18 17 17 17 17 18 15 18 15 19 13 19 13 21 16 21 16 23 8 23 8 21 11 21 11 19 9 19 9 18 7 18 7 17 6 17 6 15 5 15 5 12 6 12 6 14 7 14 7 16 8 16 8 17 10 17 10 18 14 18 14 17 16 17 16 16 17 16 17 14 18 14 18 12 19 12\"/></svg>"
     },
     {
       "name": "product-hunt",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"product-hunt\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"15 9 15 11 14 11 14 12 10 12 10 8 14 8 14 9 15 9\"/><path d=\"m22,9v-2h-1v-2h-1v-1h-1v-1h-2v-1h-2v-1h-6v1h-2v1h-2v1h-1v1h-1v2h-1v2h-1v6h1v2h1v2h1v1h1v1h2v1h2v1h6v-1h2v-1h2v-1h1v-1h1v-2h1v-2h1v-6h-1Zm-6,4h-2v1h-4v4h-2V6h6v1h2v1h1v4h-1v1Z\"/></svg>"
     },
     {
       "name": "reddit",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"reddit\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"14\" y=\"15\" width=\"1\" height=\"1\"/><rect x=\"13\" y=\"12\" width=\"2\" height=\"2\"/><rect x=\"9\" y=\"12\" width=\"2\" height=\"2\"/><rect x=\"9\" y=\"15\" width=\"1\" height=\"1\"/><path d=\"m22,9v-2h-1v-2h-1v-1h-1v-1h-2v-1h-2v-1h-6v1h-2v1h-2v1h-1v1h-1v2h-1v2h-1v6h1v2h1v2h1v1h1v1h2v1h2v1h6v-1h2v-1h2v-1h1v-1h1v-2h1v-2h1v-6h-1Zm-3,5h-1v1h-1v2h-1v1h-2v1h-4v-1h-2v-1h-1v-3h-1v-1h-1v-2h1v-1h2v1h1v-1h3v-5h2v1h3v2h-2v-1h-2v3h2v1h1v-1h2v1h1v3Z\"/><rect x=\"10\" y=\"16\" width=\"4\" height=\"1\"/></svg>"
     },
     {
       "name": "rss",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"rss\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m22,2v-1H2v1h-1v20h1v1h20v-1h1V2h-1Zm-6,16v-3h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1h-2v-1h-3v-3h3v1h2v1h2v1h2v1h1v1h1v1h1v1h1v2h1v2h1v2h1v3h-3v-2h-1Zm-5,0v-2h-1v-1h-1v-1h-1v-1h-2v-1h-2v-3h2v1h2v1h2v1h1v1h1v1h1v2h1v2h1v2h-3v-2h-1Zm-7,1v-3h1v-1h3v1h1v3h-1v1h-3v-1h-1Z\"/></svg>"
     },
     {
       "name": "steam",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"steam\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M18 8H17V11H18V8Z\"  />\n<path d=\"M17 11H14V12H17V11Z\"  />\n<path d=\"M17 7H14V8H17V7Z\"  />\n<path d=\"M14 8H13V11H14V8Z\"  />\n<path d=\"M10 18H7V19H10V18Z\"  />\n<path d=\"M10 14H8V15H10V14Z\"  />\n<path d=\"M11 15H10V18H11V15Z\"  />\n<path d=\"M23 9V15H22V17H21V19H20V20H19V21H17V22H15V23H9V22H7V21H5V20H4V19H3V17H2V15H3V16H5V17H7V18H6V19H7V20H10V19H11V18H12V16H13V15H15V14H17V13H19V11H20V8H19V6H17V5H14V6H12V8H11V11H10V12H9V13H7V14H6V13H4V12H2V11H1V9H2V7H3V5H4V4H5V3H7V2H9V1H15V2H17V3H19V4H20V5H21V7H22V9H23Z\"  /></svg>"
     },
     {
       "name": "threads",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"threads\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M21 7V5H20V4H19V3H18V2H16V1H8V2H6V3H5V4H4V5H3V8H2V16H3V19H4V20H5V21H6V22H8V23H16V22H18V21H19V20H20V19H21V12H20V11H19V10H16V8H15V7H14V6H10V7H9V8H8V9H11V8H13V9H14V10H10V11H9V12H8V16H9V17H10V18H14V17H15V16H16V12H18V13H19V18H18V19H17V20H15V21H9V20H7V19H6V18H5V15H4V9H5V6H6V5H7V4H9V3H15V4H17V5H18V6H19V8H22V7H21ZM13 15V16H11V15H10V13H11V12H13V13H14V15H13Z\"  /></svg>"
     },
     {
       "name": "tiktok",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"tiktok\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"22 7 22 11 20 11 20 10 18 10 18 9 17 9 17 19 16 19 16 20 15 20 15 21 14 21 14 22 13 22 13 23 7 23 7 22 6 22 6 21 5 21 5 20 4 20 4 19 3 19 3 18 2 18 2 14 3 14 3 12 4 12 4 11 5 11 5 10 6 10 6 9 10 9 10 13 8 13 8 14 7 14 7 17 8 17 8 18 11 18 11 17 12 17 12 1 16 1 16 2 17 2 17 4 18 4 18 5 19 5 19 6 20 6 20 7 22 7\"/></svg>"
     },
     {
       "name": "twitch",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"twitch\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M6,1V2H5V3H4V4H3V5H2V19H7v4H8V22H9V21h1V20h1V19h4V18h1V17h1V16h1V15h1V14h1V13h1V12h1V1ZM20,12H19v1H18v1H13v1H12v1H11v1H10V14H7V3H20Z\"/><rect x=\"16\" y=\"5\" width=\"2\" height=\"5\"/><rect x=\"11\" y=\"5\" width=\"2\" height=\"5\"/></svg>"
     },
     {
       "name": "twitter",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"twitter\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"22\" y=\"5\" width=\"1\" height=\"1\"/><rect x=\"22\" y=\"3\" width=\"1\" height=\"1\"/><polygon points=\"21 5 21 6 22 6 22 7 21 7 21 12 20 12 20 14 19 14 19 16 18 16 18 17 17 17 17 18 16 18 16 19 14 19 14 20 11 20 11 21 4 21 4 20 2 20 2 19 1 19 1 18 3 18 3 19 6 19 6 18 7 18 7 17 5 17 5 16 4 16 4 15 3 15 3 14 5 14 5 13 3 13 3 12 2 12 2 10 4 10 4 9 3 9 3 8 2 8 2 4 3 4 3 5 4 5 4 6 5 6 5 7 7 7 7 8 10 8 10 9 12 9 12 5 13 5 13 4 14 4 14 3 19 3 19 4 22 4 22 5 21 5\"/></svg>"
     },
     {
       "name": "unsplash",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"unsplash\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><rect x=\"8\" y=\"1\" width=\"8\" height=\"6\"/><polygon points=\"23 11 23 23 1 23 1 11 8 11 8 17 16 17 16 11 23 11\"/></svg>"
     },
     {
       "name": "viewblocks",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"viewblocks\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m21,11v-2h-1v-2h-1v-1h-1v-1h-1v-1h-2v-1h-2V1h-2v2h-2v1h-2v1h-1v1h-1v1h-1v2h-1v2H1v2h2v2h1v2h1v1h1v1h1v1h2v1h2v2h2v-2h2v-1h2v-1h1v-1h1v-1h1v-2h1v-2h2v-2h-2Zm-10,8h-1v-1h-2v-1h-1v-1h-1v-1h-1v-6h1v1h1v1h1v1h2v1h1v6Zm-1-8v-1h-2v-1h-1v-1h-1v-1h2v-1h2v-1h4v1h2v1h2v1h-1v1h-1v1h-2v1h-4Zm9,4h-1v1h-1v1h-1v1h-2v1h-1v-6h1v-1h2v-1h1v-1h1v-1h1v6Z\"/></svg>"
     },
     {
       "name": "wikipedia",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"wikipedia\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><polygon points=\"23 5 23 6 22 6 22 7 21 7 21 9 20 9 20 11 19 11 19 13 18 13 18 15 17 15 17 18 16 18 16 19 15 19 15 18 14 18 14 15 13 15 13 13 12 13 12 15 11 15 11 17 10 17 10 18 9 18 9 19 8 19 8 18 7 18 7 15 6 15 6 13 5 13 5 11 4 11 4 9 3 9 3 7 2 7 2 6 1 6 1 5 6 5 6 6 5 6 5 7 6 7 6 9 7 9 7 11 8 11 8 13 9 13 9 15 10 15 10 14 11 14 11 12 12 12 12 11 11 11 11 9 10 9 10 7 9 7 9 6 8 6 8 5 12 5 12 6 11 6 11 7 12 7 12 8 14 8 14 6 13 6 13 5 17 5 17 6 16 6 16 7 15 7 15 9 14 9 14 12 15 12 15 14 17 14 17 12 18 12 18 10 19 10 19 8 20 8 20 6 19 6 19 5 23 5\"/></svg>"
     },
     {
       "name": "x",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"x\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m15.5,10v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h-3v1h-1v1h-1v1h-1v1h-1v1h-1v1h-2v-1h-1v-1h-1v-2h-1v-1h-1v-1H1.5v1h1v1h1v1h1v2h1v1h1v2h1v1h1v2h1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h3v-1h1v-1h1v-1h1v-1h1v-1h1v-1h2v1h1v1h1v2h1v1h1v1h7v-1h-1v-1h-1v-1h-1v-2h-1v-1h-1v-2h-1v-1h-1v-2h-1v-1h1Zm0,4v1h1v2h1v1h1v2h-3v-2h-1v-1h-1v-1h-1v-2h-1v-1h-1v-1h-1v-2h-1v-1h-1v-2h-1v-1h-1v-2h3v1h1v2h1v1h1v2h1v1h1v1h1v2h1Z\"/></svg>"
     },
     {
       "name": "youtube",
       "tags": [
-        "brands"
+        "social-media-icons"
       ],
       "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"youtube\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"m22,7v-2h-2v-1H4v1h-2v2h-1v10h1v2h2v1h16v-1h2v-2h1V7h-1Zm-10,8h-2v-6h2v1h2v1h2v2h-2v1h-2v1Z\"/></svg>"
     },
