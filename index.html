@@ -414,10 +414,7 @@
                       const iconData = data.icons.find(icon => icon.name === decoded);
                       if (iconData) {
                         await openIconModal(iconData);
-                      } else {
-                        const iconData = data.icons.find(icon => icon.name === 'hackernoon');
-                        await openIconModal(iconData);
-                      }
+                      } 
                     } catch (error) {
                       console.error('Error loading icon:', error);
                     }
