@@ -7,6 +7,14 @@
     <link href="/src/output.css" rel="stylesheet">
     <link href="/fonts/iconfont.css" rel="stylesheet">
     <link rel="icon" href="/assets/favicon.png" type="image/png">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <meta name="description" content="HackerNoon’s Pixel Icon Library is an open-source collection of pixelated icons, designed on a 24px grid for perfect alignment. Inspired by HackerNoon's aesthetics.">
+    <meta property="og:title" content="Pixel Icon Library | Open-Source Pixelated Icons By HackerNoon">
+    <meta property="og:description" content="HackerNoon’s Pixel Icon Library is an open-source collection of meticulously designed pixelated icons. Crafted on a 24px grid for perfect alignment, inspired by HackerNoon’s retro design vibes, these icons capture the essence of internet’s golden days.">
+    <meta property="og:image" content="/assets/og-image.png">
+    <meta property="og:url" content="https://pixeliconlibrary.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://pixeliconlibrary.com">
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const searchInput = document.getElementById("icon-search");
@@ -81,15 +89,15 @@
         </div>
         -->
         <div class="flex justify-center mt-6 gap-6">
-            <button class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl">
+            <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl" href="https://www.npmjs.com/package/@hackernoon/pixel-icon-library">
                 <i class="hn hn-npm"></i>
-            </button>
-            <button class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl">
+            </a>
+            <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl" href="https://github.com/hackernoon/pixel-icon-library">
                 <i class="hn hn-github"></i>
-            </button>
-            <button class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl">
+            </a>
+            <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl" href="https://www.figma.com/community/file/1278952394341234192/pixel-icon-library-1440-pixelated-icons-by-hackernoon">
                 <i class="hn hn-figma"></i>
-            </button>
+            </a>
         </div>
         <div class="flex justify-center mt-6">
             <a href="/assets/pixel-icon-library-by-hackernoon.zip" download class="btn border border-[#00ff00] text-[#00ff00] font-semibold bg-[#101010] hover:bg-[#00ff00] hover:text-[#101010] px-4 py-3 rounded-[5px]">
@@ -178,6 +186,29 @@
     </div>
 
     <script>
+        // Check for redirect path at the start of your script
+        document.addEventListener('DOMContentLoaded', async () => {
+            const redirectPath = sessionStorage.getItem('redirectPath');
+            if (redirectPath) {
+                // Clear the stored path
+                sessionStorage.removeItem('redirectPath');
+                // Get the slug without the base path
+                const slug = redirectPath.replace('/pixel-icon-library/', '');
+                if (slug) {
+                    try {
+                        const response = await fetch('./data/icons.json');
+                        const data = await response.json();
+                        const iconData = data.icons.find(icon => icon.name === slug);
+                        if (iconData) {
+                            await openIconModal(iconData);
+                        }
+                    } catch (error) {
+                        console.error('Error loading icon:', error);
+                    }
+                }
+            }
+        });
+
         async function loadIcons() {
             try {
                 const response = await fetch('./data/icons.json');
@@ -238,20 +269,7 @@
                             // Add click event for modal
                             card.addEventListener('click', function() {
                                 const iconData = JSON.parse(this.dataset.icon);
-                                iconDisplay.innerHTML = `<i class="hn hn-${iconData.name} text-[#f5f5f5] text-4xl"></i>`;
-                                iconTitle.textContent = iconData.name.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
-                                iconTag.textContent = iconData.tags.join(', ');
-                                iconCode.textContent = `<i class="hn hn-${iconData.name}"></i>`;
-                                downloadButton.onclick = function() {
-                                    const blob = new Blob([iconData.svg], { type: 'image/svg+xml' });
-                                    const url = URL.createObjectURL(blob);
-                                    const a = document.createElement('a');
-                                    a.href = url;
-                                    a.download = `${iconData.name}.svg`;
-                                    a.click();
-                                    URL.revokeObjectURL(url);
-                                };
-                                modal.classList.remove('hidden');
+                                openIconModal(iconData);
                             });
                         }
                     });
@@ -324,6 +342,13 @@
                 const downloadButton = document.getElementById('download-svg');
                 const copyButton = document.getElementById('copy-code');
 
+                // Close modal when clicking outside
+                modal.addEventListener('click', function(event) {
+                    if (event.target === modal) {
+                        closeModal();
+                    }
+                });
+
                 copyButton.addEventListener('click', function() {
                     navigator.clipboard.writeText(iconCode.textContent).then(() => {
                         copyButton.innerHTML = '<span style="font-size: 12px;">Copied!</span>';
@@ -333,9 +358,69 @@
                     });
                 });
 
-                modal.addEventListener('click', function(event) {
-                    if (event.target === modal) {
+                // Function to open modal with specific icon
+                function openIconModal(iconData) {
+                    try {
+                        iconDisplay.innerHTML = `<i class="hn hn-${iconData.name} text-[#f5f5f5] text-4xl"></i>`;
+                        iconTitle.textContent = iconData.name.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
+                        iconTag.textContent = iconData.tags.join(', ');
+                        iconCode.textContent = `<i class="hn hn-${iconData.name}"></i>`;
+                        downloadButton.onclick = function() {
+                            const blob = new Blob([iconData.svg], { type: 'image/svg+xml' });
+                            const url = URL.createObjectURL(blob);
+                            const a = document.createElement('a');
+                            a.href = url;
+                            a.download = `${iconData.name}.svg`;
+                            a.click();
+                            URL.revokeObjectURL(url);
+                        };
+                        modal.classList.remove('hidden');
+                        history.pushState({iconData}, '', `/${iconData.name}`);
+                    } catch (error) {
+                        console.error('Error opening modal:', error);
+                    }
+                }
+
+                // Function to close modal
+                function closeModal() {
+                    try {
                         modal.classList.add('hidden');
+                        history.pushState({}, '', '/');
+                    } catch (error) {
+                        console.error('Error closing modal:', error);
+                    }
+                }
+
+                // Handle browser back/forward buttons
+                window.addEventListener('popstate', function(event) {
+                    try {
+                        const slug = window.location.pathname.substring(1);
+                        if (!slug) {
+                            closeModal();
+                        } else if (event.state && event.state.iconData) {
+                            openIconModal(event.state.iconData);
+                        }
+                    } catch (error) {
+                        console.error('Error handling navigation:', error);
+                    }
+                });
+
+                // Check URL on page load for direct icon access
+                document.addEventListener('DOMContentLoaded', () => {
+                    const slug = window.location.pathname.substring(1);
+                    if (slug) {
+                        try {
+                            fetch('./data/icons.json')
+                                .then(response => response.json())
+                                .then(data => {
+                                    const iconData = data.icons.find(icon => icon.name === slug);
+                                    if (iconData) {
+                                        openIconModal(iconData);
+                                    }
+                                });
+                        } catch (error) {
+                            console.error('Error loading icon:', error);
+                        }
                     }
                 });
 
