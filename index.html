@@ -391,6 +391,40 @@
                     }
                 }
 
+              // Single Page Apps for GitHub Pages
+              // MIT License
+              // https://github.com/rafgraph/spa-github-pages
+              // This script checks to see if a redirect is present in the query string,
+              // converts it back into the correct url and adds it to the
+              // browser's history using window.history.replaceState(...),
+              // which won't cause the browser to attempt to load the new url.
+              // When the single page app is loaded further down in this file,
+              // the correct url will be waiting in the browser's history for
+              // the single page app to route accordingly.
+              (async function(l) {
+                if (l.search[1] === 'i' ) {
+                  var decoded = l.search.slice(1).split('=')[1];
+                  console.log("decoded", decoded);
+                  window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+
+                  if (decoded) {
+                    try {
+                      const response = await fetch('./data/icons.json');
+                      const data = await response.json();
+                      const iconData = data.icons.find(icon => icon.name === decoded);
+                      if (iconData) {
+                        await openIconModal(iconData);
+                      } else {
+                        const iconData = data.icons.find(icon => icon.name === 'hackernoon');
+                        await openIconModal(iconData);
+                      }
+                    } catch (error) {
+                      console.error('Error loading icon:', error);
+                    }
+                  }
+                }
+              }(window.location))
+
                 // Handle browser back/forward buttons
                 window.addEventListener('popstate', function(event) {
                     try {

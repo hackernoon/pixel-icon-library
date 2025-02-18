@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Single Page Apps for GitHub Pages</title>
+    <script type="text/javascript">
+      const url = new URL(window.location.href);
+      console.log("url", url);
+
+      if (!url.searchParams.has('icon') && url.pathname.length > 1) {
+        const iconName = url.pathname.slice(1); 
+
+        // Create the new URL format
+        url.pathname = '/';
+        url.searchParams.set('icon', iconName);
+
+        window.location.replace(url.toString());
+      }
+
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
