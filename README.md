@@ -100,4 +100,4 @@ For more info on how to contribute please check our [Contribution Guidelines](ht
 
 # Learn More @ [PixelIconLibrary.com](https://pixeliconlibrary.com)
 
-**Designed with 💚 by Designers at HackerNoon**
+**Designed with 💚 by Designers at [HackerNoon](https://hackernoon.com)**
