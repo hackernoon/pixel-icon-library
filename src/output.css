@@ -1271,6 +1271,11 @@
       height: calc(var(--spacing) * 10);
     }
   }
+  .md\:h-\[180px\] {
+    @media (width >= 48rem) {
+      height: 180px;
+    }
+  }
   .md\:h-full {
     @media (width >= 48rem) {
       height: 100%;
