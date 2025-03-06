@@ -6,6 +6,24 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://pixeliconlibrary.com/about</loc>
+        <lastmod>2025-03-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://pixeliconlibrary.com/usage</loc>
+        <lastmod>2025-03-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://pixeliconlibrary.com/license</loc>
+        <lastmod>2025-03-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://pixeliconlibrary.com/android</loc>
         <lastmod>2025-02-18</lastmod>
         <changefreq>monthly</changefreq>

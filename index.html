@@ -8,13 +8,33 @@
     <link href="/fonts/iconfont.css" rel="stylesheet">
     <link rel="icon" href="/assets/favicon.png" type="image/png">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-    <meta name="description" content="HackerNoon’s Pixel Icon Library is an open-source collection of pixelated icons, designed on a 24px grid for perfect alignment. Inspired by HackerNoon's aesthetics.">
+    <meta name="description" content="HackerNoon's Pixel Icon Library is an open-source collection of pixelated icons, designed on a 24px grid for perfect alignment. Inspired by HackerNoon's aesthetics.">
     <meta property="og:title" content="Pixel Icon Library | Open-Source Pixelated Icons By HackerNoon">
-    <meta property="og:description" content="HackerNoon’s Pixel Icon Library is an open-source collection of meticulously designed pixelated icons. Crafted on a 24px grid for perfect alignment, inspired by HackerNoon’s retro design vibes, these icons capture the essence of internet’s golden days.">
+    <meta property="og:description" content="HackerNoon's Pixel Icon Library is an open-source collection of meticulously designed pixelated icons. Crafted on a 24px grid for perfect alignment, inspired by HackerNoon's retro design vibes, these icons capture the essence of internet's golden days.">
     <meta property="og:image" content="/assets/og-image.png">
     <meta property="og:url" content="https://pixeliconlibrary.com">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://pixeliconlibrary.com">
+    <!-- Custom styles for 3D transforms (not included in Tailwind by default) -->
+    <style>
+        .perspective-1000 { perspective: 1000px; }
+        .transform-style-3d { transform-style: preserve-3d; }
+        .backface-hidden { backface-visibility: hidden; }
+        .rotate-y-180 { transform: rotateY(180deg); }
+        .rotate-x-180 { transform: rotateX(180deg); }
+        
+        /* Mobile first approach - vertical flip by default */
+        .modal-card-back {
+            transform: rotateX(180deg);
+        }
+        
+        /* Desktop - horizontal flip */
+        @media (min-width: 768px) {
+            .modal-card-back {
+                transform: rotateY(180deg);
+            }
+        }
+    </style>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const searchInput = document.getElementById("icon-search");
@@ -48,16 +68,15 @@
 <body class="font-inter bg-[#101010] text-[#f5f5f5] flex flex-col min-h-screen">
     <nav class="navbar bg-[#101010] py-4 px-8 flex justify-between items-center z-20 sticky top-0">
         <div class="flex-[0_0_70%] md:flex-1 flex justify-start items-center">
-            <a href="index.html">
+            <a href="/">
                 <img src="/assets/logo.svg" alt="Logo" class="h-8 md:h-9">
             </a>
         </div>
-        <!--
         <div class="hidden md:flex gap-12 justify-center flex-1 text-center items-center">
-            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="about.html">About</a>
-            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="license.html">Usage & License</a>
+            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="/about">About</a>
+            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="/usage">Usage</a>
+            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="/license">License</a>
         </div>
-        -->
         <div class="hidden md:flex gap-6 justify-end flex-1 items-center">
             <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-2xl flex items-center justify-center" href="https://www.npmjs.com/package/@hackernoon/pixel-icon-library">
                 <i class="hn hn-npm"></i>
@@ -82,12 +101,11 @@
     </nav>
     
     <div id="mobile-menu" class="hidden fixed top-16 left-0 w-full z-20 bg-[#101010] text-white p-4">
-        <!--
         <div class="flex flex-col items-center space-y-2">
-            <a class="block py-3 px-4 hover:text-[#00ff00] font-semibold text-base text-center" href="about.html">About</a>
-            <a class="block py-3 px-4 hover:text-[#00ff00] font-semibold text-base text-center" href="license.html">Usage & License</a>
+            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="/about">About</a>
+            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="/usage">Usage</a>
+            <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="/license">License</a>
         </div>
-        -->
         <div class="flex justify-center mt-6 gap-6">
             <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl" href="https://www.npmjs.com/package/@hackernoon/pixel-icon-library">
                 <i class="hn hn-npm"></i>
@@ -109,7 +127,9 @@
     <main class="flex-grow">
         <div class="container mx-auto p-6 text-center">
             <div class="max-w-[860px] mx-auto">
-                <h1 class="text-[#00ff00] mt-24 text-4xl font-hackernoon">Pixel Icon Library</h1>
+                <h1 class="text-[#00ff00] mt-24 text-4xl font-hackernoon">
+                    Pixel Icon Library
+                </h1>
                 <p class="mt-9 text-base md:text-lg leading-relaxed">Introducing HackerNoon's Pixel Icon Library, an open-source collection of Pixelated Icons. Meticulously designed on a 24px grid, ensuring perfect alignment and consistency to enrich your web/app/product/page/life experience.</p>
                 <a href="https://hackernoon.com/">
                     <img src="/assets/badge.svg" alt="Made with Love by HackerNoon" class="mx-auto mt-4 mb-24">
@@ -119,7 +139,7 @@
                         <div class="relative">
                             <i class="hn hn-search absolute left-4 top-1/2 transform -translate-y-1/2 text-[#e0e0e0]"></i>
                             <input type="text" id="icon-search" class="w-full pl-12 pr-4 py-4 border-2 border-transparent focus:border-[#424242] focus:outline-none bg-[#212121] text-[#e0e0e0] rounded" placeholder="Search for pixelated icons">
-                            <div id="search-suggestions" class="absolute w-full bg-[#212121] mt-2 rounded-lg shadow-lg z-50 max-h-60 overflow-y-auto hidden"></div>
+                            <div id="search-suggestions" class="absolute w-full bg-[#212121] mt-2 rounded-lg shadow-lg z-50 h-auto overflow-y-auto hidden"></div>
                         </div>
                     </div>
                     <div class="flex flex-wrap gap-2 justify-center overflow-x-auto">
@@ -127,13 +147,56 @@
                         <button class="filter-button px-4 py-2 text-[14px] bg-[#212121] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="solid">Solid</button>
                         <button class="filter-button px-4 py-2 text-[14px] bg-[#212121] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="regular">Regular</button>
                         <button class="filter-button px-4 py-2 text-[14px] bg-[#212121] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="social-media-icons">Social Media Icons</button>
-                        <button class="filter-button px-4 py-2 text-[14px] bg-[#212121] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="purcats">PurrCats</button>
+                        <button class="filter-button px-4 py-2 text-[14px] bg-[#212121] text-[#f5f5f5] rounded-full hover:bg-[#424242] transition-colors cursor-pointer" data-filter="purcats" title="Internet's Essential Technology Categories via HackerNoon">PurrCats</button>
                     </div>
                 </div>
             </div>
             <div class="flex justify-center px-4">
                     <div id="icon-cards" class="flex flex-wrap justify-center gap-4 mt-16 mb-48 w-full">
                     <!-- Icons will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- More Design Resources Section -->
+        <div class="container mx-auto p-6 mb-48">
+            <div class="max-w-[860px] mx-auto">
+                <h2 class="text-4xl font-hackernoon mb-20 text-center">
+                    <span class="text-white">More</span> <span class="text-[#00ff00]">Design Resources</span>
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Card 1 -->
+                    <a href="https://www.figma.com/community/file/1360294413073459375/pixelated-emoji-pack-emoji-credibility-indicators-by-hackernoon" class="group relative rounded-lg overflow-hidden h-[236px] transition-transform hover:scale-[1.02]" title="Emoji Credibility Indicators | Pixelated Emoji Pack">
+                        <img src="/assets/emoji-cover.png" alt="Emoji Credibility Indicators | Pixelated Emoji Pack" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+                            <span class="text-white text-xl font-bold text-center p-4">Emoji Credibility Indicators | Pixelated Emoji Pack</span>
+                        </div>
+                    </a>
+                    
+                    <!-- Card 2 -->
+                    <a href="https://www.figma.com/community/file/1440286206508289994/780-minimal-wallpapers-city-backgrounds-in-line-art-style" class="group relative rounded-lg overflow-hidden h-[236px] transition-transform hover:scale-[1.02]" title="Startups of The Year Wallpaper Collection | 780+ Minimal City Backgrounds in Line Art Style">
+                        <img src="/assets/soty_wallpaper_cover.png" alt="Startups of The Year Wallpaper Collection | 780+ Minimal City Backgrounds in Line Art Style" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+                            <span class="text-white text-xl font-bold text-center p-4">Startups of The Year Wallpaper Collection | 780+ Minimal City Backgrounds in Line Art Style</span>
+                        </div>
+                    </a>
+                    
+                    <!-- Card 3 -->
+                    <a href="https://www.figma.com/community/file/1421935329734183912/startups-of-the-year-2024-design-system-by-hackernoon" class="group relative rounded-lg overflow-hidden h-[236px] transition-transform hover:scale-[1.02]" title="Startup of The Year Design System">
+                        <img src="/assets/soty_cover.png" alt="Startup of The Year Design System" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+                            <span class="text-white text-xl font-bold text-center p-4">Startup of The Year Design System</span>
+                        </div>
+                    </a>
+
+                    <!-- Card 4 -->
+                    <a href="https://www.dafont.com/hacker-noon.font" class="group relative rounded-lg overflow-hidden h-[236px] transition-transform hover:scale-[1.02]" title="HackerNoon Font 2.0">
+                        <img src="/assets/font_cover.png" alt="HackerNoon Font 2.0" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+                            <span class="text-white text-xl font-bold text-center p-4">HackerNoon Font 2.0</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -144,12 +207,11 @@
             <img src="/assets/logo.svg" alt="Logo" class="h-8 mx-auto md:mx-0">
         </div>
         <div class="flex-1">
-            <!--
             <div class="flex flex-col md:flex-row justify-center md:justify-end gap-6 mb-6 text-[#eeeeee] text-[14px]">
-                <a class="hover:text-[#00ff00]" href="about.html">About</a>
-                <a class="hover:text-[#00ff00]" href="license.html">Usage & License</a>
+                <a class="hover:text-[#00ff00]" href="/about">About</a>
+                <a class="hover:text-[#00ff00]" href="/usage">Usage</a>
+                <a class="hover:text-[#00ff00]" href="/license">License</a>
             </div>
-            -->
             <div class="flex justify-center md:justify-end gap-6 text-[#eeeeee]">
                 <a class="btn btn-square btn-ghost hover:text-[#00ff00]" href="https://www.npmjs.com/package/@hackernoon/pixel-icon-library">
                     <i class="hn hn-npm"></i>
@@ -165,27 +227,148 @@
     </footer>
     
     <div id="icon-modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-40">
-        <div class="bg-[#212121] rounded-lg p-8 max-w-sm w-full">
-            <div class="flex items-center gap-4 mb-6">
-                <div class="bg-[#101010] p-6 rounded" id="icon-display">
-                    <!-- Icon will be inserted here -->
+        <div class="w-[384px] h-[320px] perspective-1000 transition-transform duration-500">
+            <div id="modal-card-inner" class="relative w-[384px] h-[320px] transition-transform duration-800 transform-style-3d">
+                <!-- Front side of the card -->
+                <div class="modal-card-front absolute w-[384px] h-auto backface-hidden bg-[#212121] rounded-lg p-8 z-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="bg-[#101010] p-6 rounded" id="icon-display">
+                            <!-- Icon will be inserted here -->
+                        </div>
+                        <div>
+                            <div id="icon-title" class="text-[#f5f5f5] text-lg font-bold break-words max-w-xs mx-auto"></div>
+                            <div id="icon-tag" class="text-[#f5f5f5] text-sm"></div>
+                        </div>
+                    </div>
+                    <div class="bg-[#101010] p-4 rounded mb-4 flex items-center justify-between" style="width: 320px;">
+                        <code id="icon-code" class="text-[#f5f5f5] mr-1">&lt;i class="hn hn-icon-name"&gt;&lt;/i&gt;</code>
+                        <button id="copy-code" class="bg-[#424242] p-2 rounded transition-colors flex items-center justify-center cursor-pointer">
+                            <i class="hn hn-copy text-[#f5f5f5] text-base transition-colors"></i>
+                        </button>
+                    </div>
+                    <button id="download-svg" class="w-full bg-[#00ff00] text-[#101010] font-semibold py-2 rounded hover:bg-[#424242] hover:text-[#f5f5f5] transition-colors cursor-pointer" style="width: 320px;">Download SVG</button>
                 </div>
-                <div>
-                    <div id="icon-title" class="text-[#f5f5f5] text-lg font-bold break-words max-w-xs mx-auto"></div>
-                    <div id="icon-tag" class="text-[#f5f5f5] text-sm"></div>
+                
+                <!-- Back side of the card (popup content) -->
+                <div class="modal-card-back absolute w-[384px] h-auto backface-hidden bg-[#212121] rounded-lg p-8 z-0">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="flex items-center">
+                            <i class="hn hn-heart-solid text-[#00ff00] text-xl mr-2"></i>
+                            <div class="text-[#f5f5f5] text-lg font-bold">Love the icons?</div>
+                        </div>
+                        <button id="close-flip" class="text-[#f5f5f5] hover:text-[#00ff00] cursor-pointer">
+                            <i class="hn hn-refresh-solid"></i>
+                        </button>
+                    </div>
+                    <div class="text-[#f5f5f5] text-sm mb-4">Consider giving us a shoutout on socials!</div>
+                    
+                    <!-- Social sharing buttons -->
+                    <div class="flex justify-start gap-3 mb-4">
+                        <button id="share-x" class="social-share-btn bg-[#424242] text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#424242] p-2 rounded-full transition-colors flex items-center justify-center cursor-pointer">
+                            <i class="hn hn-x text-lg"></i>
+                        </button>
+                        <button id="share-fb" class="social-share-btn bg-[#424242] text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#424242] p-2 rounded-full transition-colors flex items-center justify-center cursor-pointer">
+                            <i class="hn hn-facebook-round text-lg"></i>
+                        </button>
+                        <button id="share-pinterest" class="social-share-btn bg-[#424242] text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#424242] p-2 rounded-full transition-colors flex items-center justify-center cursor-pointer">
+                            <i class="hn hn-pinterest text-lg"></i>
+                        </button>
+                        <button id="share-link" class="social-share-btn bg-[#424242] text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#424242] p-2 rounded-full transition-colors flex items-center justify-center cursor-pointer">
+                            <i class="hn hn-link text-lg"></i>
+                        </button>
+                    </div>
+                
+                    <div class="bg-[#101010] p-4 rounded mb-4 flex items-center justify-between">
+                        <code id="flip-shoutout-code" class="text-[#f5f5f5] mr-1">Icons from Pixel Icon Library by HackerNoon</code>
+                        <button id="copy-flip-shoutout" class="bg-[#424242] p-2 rounded transition-colors flex items-center justify-center cursor-pointer">
+                            <i class="hn hn-copy text-[#f5f5f5] text-base transition-colors"></i>
+                        </button>
+                    </div>
+                    <div class="text-[#c0c0c0] text-xs">LICENSED UNDER CC BY 4.0</div>
                 </div>
             </div>
-            <div class="bg-[#101010] p-4 rounded mb-4 flex items-center justify-between" style="width: 320px;">
-                <code id="icon-code" class="text-[#f5f5f5]">&lt;i class="hn hn-icon-name"&gt;&lt;/i&gt;</code>
-                <button id="copy-code" class="bg-[#424242] p-2 rounded transition-colors flex items-center justify-center cursor-pointer">
-                    <i class="hn hn-copy text-[#f5f5f5] text-base transition-colors"></i>
-                </button>
-            </div>
-            <button id="download-svg" class="w-full bg-[#00ff00] text-[#101010] font-semibold py-2 rounded hover:bg-[#424242] hover:text-[#f5f5f5] transition-colors cursor-pointer" style="width: 320px;">Download SVG</button>
         </div>
     </div>
 
+    <!-- Download Popup -->
+    <div id="download-popup" class="hidden fixed bottom-0 left-1/2 transform -translate-x-1/2 bg-[#212121] p-8 rounded-lg z-50 transition-transform duration-300 translate-y-full w-full md:mb-4" style="max-width: 560px;">
+        <div class="flex justify-between items-start mb-4">
+            <div class="flex items-center">
+                <i class="hn hn-heart-solid text-[#00ff00] text-xl mr-2"></i>
+                <div id="popup-title" class="text-[#f5f5f5] text-lg font-bold">Love The Icons?</div>
+            </div>
+            <button id="close-popup" class="text-[#f5f5f5] hover:text-[#00ff00] cursor-pointer">
+                <i class="hn hn-times-solid"></i>
+            </button>
+        </div>
+        <div id="popup-subtitle" class="text-[#f5f5f5] text-sm mb-4">Consider giving us a shoutout on socials!</div>
+        <!-- Social sharing buttons -->
+        <div class="flex justify-start gap-3 mb-4">
+            <button id="share-x" class="social-share-btn bg-[#424242] text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#424242] p-2 rounded-full transition-colors flex items-center justify-center cursor-pointer">
+                <i class="hn hn-x text-lg"></i>
+            </button>
+            <button id="share-fb" class="social-share-btn bg-[#424242] text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#424242] p-2 rounded-full transition-colors flex items-center justify-center cursor-pointer">
+                <i class="hn hn-facebook-round text-lg"></i>
+            </button>
+            <button id="share-pinterest" class="social-share-btn bg-[#424242] text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#424242] p-2 rounded-full transition-colors flex items-center justify-center cursor-pointer">
+                <i class="hn hn-pinterest text-lg"></i>
+            </button>
+            <button id="share-link" class="social-share-btn bg-[#424242] text-[#f5f5f5] hover:bg-[#f5f5f5] hover:text-[#424242] p-2 rounded-full transition-colors flex items-center justify-center cursor-pointer">
+                <i class="hn hn-link text-lg"></i>
+            </button>
+        </div>
+        <div class="bg-[#101010] p-4 rounded mb-4 flex items-center justify-between">
+            <code id="shoutout-code" class="text-[#f5f5f5] mr-1">Icons from Pixel Icon Library by HackerNoon</code>
+            <button id="copy-shoutout" class="bg-[#424242] p-2 rounded transition-colors flex items-center justify-center cursor-pointer">
+                <i class="hn hn-copy text-[#f5f5f5] text-base transition-colors"></i>
+            </button>
+        </div>
+        <div class="text-[#c0c0c0] text-xs">LICENSED UNDER CC BY 4.0</div>
+    </div>
+
     <script>
+        // Global popup functions
+        let downloadPopup;
+        let closePopupBtn;
+        let copyShoutoutBtn;
+        
+        function showPopup() {
+            downloadPopup = document.getElementById('download-popup');
+            closePopupBtn = document.getElementById('close-popup');
+            copyShoutoutBtn = document.getElementById('copy-shoutout');
+            
+            downloadPopup.classList.remove('hidden');
+            // Use setTimeout to ensure the transition works properly
+            setTimeout(() => {
+                downloadPopup.classList.remove('translate-y-full');
+            }, 10);
+            
+            // Make sure event listeners are attached
+            closePopupBtn.onclick = hidePopup;
+            
+            // Copy shoutout text
+            copyShoutoutBtn.onclick = function() {
+                navigator.clipboard.writeText(document.getElementById('shoutout-code').textContent).then(() => {
+                    copyShoutoutBtn.innerHTML = '<span style="font-size: 12px;">Copied!</span>';
+                    setTimeout(() => {
+                        copyShoutoutBtn.innerHTML = '<i class="hn hn-copy text-[#f5f5f5] text-base transition-colors"></i>';
+                    }, 2000);
+                });
+            };
+        }
+        
+        function hidePopup() {
+            if (!downloadPopup) {
+                downloadPopup = document.getElementById('download-popup');
+            }
+            
+            downloadPopup.classList.add('translate-y-full');
+            // Wait for transition to complete before hiding
+            setTimeout(() => {
+                downloadPopup.classList.add('hidden');
+            }, 300);
+        }
+        
         // Check for redirect path at the start of your script
         document.addEventListener('DOMContentLoaded', async () => {
             const redirectPath = sessionStorage.getItem('redirectPath');
@@ -335,13 +518,21 @@
 
                 // Modal interaction
                 const modal = document.getElementById('icon-modal');
+                const modalCardInner = document.getElementById('modal-card-inner');
                 const iconDisplay = document.getElementById('icon-display');
                 const iconTitle = document.getElementById('icon-title');
                 const iconTag = document.getElementById('icon-tag');
                 const iconCode = document.getElementById('icon-code');
                 const downloadButton = document.getElementById('download-svg');
                 const copyButton = document.getElementById('copy-code');
-
+                const closeFlipButton = document.getElementById('close-flip');
+                const copyFlipShoutoutBtn = document.getElementById('copy-flip-shoutout');
+                
+                // Initialize popup elements (for Download Bundle)
+                downloadPopup = document.getElementById('download-popup');
+                closePopupBtn = document.getElementById('close-popup');
+                copyShoutoutBtn = document.getElementById('copy-shoutout');
+                
                 // Close modal when clicking outside
                 modal.addEventListener('click', function(event) {
                     if (event.target === modal) {
@@ -349,6 +540,7 @@
                     }
                 });
 
+                // Copy code button
                 copyButton.addEventListener('click', function() {
                     navigator.clipboard.writeText(iconCode.textContent).then(() => {
                         copyButton.innerHTML = '<span style="font-size: 12px;">Copied!</span>';
@@ -357,10 +549,58 @@
                         }, 2000);
                     });
                 });
+                
+                // Copy shoutout from flipped card
+                copyFlipShoutoutBtn.addEventListener('click', function() {
+                    navigator.clipboard.writeText(document.getElementById('flip-shoutout-code').textContent).then(() => {
+                        copyFlipShoutoutBtn.innerHTML = '<span style="font-size: 12px;">Copied!</span>';
+                        setTimeout(() => {
+                            copyFlipShoutoutBtn.innerHTML = '<i class="hn hn-copy text-[#f5f5f5] text-base transition-colors"></i>';
+                        }, 2000);
+                    });
+                });
+                
+                // Refresh button (flip back to front side)
+                closeFlipButton.addEventListener('click', function() {
+                    modalCardInner.style.transform = '';
+                });
+
+                // Social sharing buttons functionality
+                document.getElementById('share-x').addEventListener('click', function() {
+                    const iconName = iconTitle.textContent;
+                    const url = window.location.href;
+                    window.open(`https://twitter.com/intent/tweet?text=Check out this ${iconName} icon from Pixel Icon Library by HackerNoon&url=${encodeURIComponent(url)}`, '_blank');
+                });
+
+                document.getElementById('share-fb').addEventListener('click', function() {
+                    const url = window.location.href;
+                    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+                });
+
+                document.getElementById('share-pinterest').addEventListener('click', function() {
+                    const iconName = iconTitle.textContent;
+                    const url = window.location.href;
+                    window.open(`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(url)}&description=${encodeURIComponent(`${iconName} icon from Pixel Icon Library by HackerNoon`)}`, '_blank');
+                });
+
+                document.getElementById('share-link').addEventListener('click', function() {
+                    const url = window.location.href;
+                    navigator.clipboard.writeText(url).then(() => {
+                        const button = document.getElementById('share-link');
+                        const originalHTML = button.innerHTML;
+                        button.innerHTML = '<i class="hn hn-check text-xl"></i>';
+                        setTimeout(() => {
+                            button.innerHTML = originalHTML;
+                        }, 2000);
+                    });
+                });
 
                 // Function to open modal with specific icon
                 function openIconModal(iconData) {
                     try {
+                        // Reset flip state when opening modal
+                        modalCardInner.style.transform = '';
+                        
                         iconDisplay.innerHTML = `<i class="hn hn-${iconData.name} text-[#f5f5f5] text-4xl"></i>`;
                         iconTitle.textContent = iconData.name.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
                         iconTag.textContent = iconData.tags.join(', ');
@@ -373,6 +613,15 @@
                             a.download = `${iconData.name}.svg`;
                             a.click();
                             URL.revokeObjectURL(url);
+                            
+                            // Flip the card based on screen width
+                            if (window.innerWidth >= 768) {
+                                // Desktop - horizontal flip
+                                modalCardInner.style.transform = 'rotateY(180deg)';
+                            } else {
+                                // Mobile - vertical flip
+                                modalCardInner.style.transform = 'rotateX(180deg)';
+                            }
                         };
                         modal.classList.remove('hidden');
                         history.pushState({iconData}, '', `/${iconData.name}`);
@@ -550,6 +799,22 @@
             menu.classList.toggle('hidden');
             icon.classList.toggle('hn-bars-solid');
             icon.classList.toggle('hn-times-solid');
+        });
+        
+        // Add event listeners for Download Bundle buttons
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all Download Bundle buttons
+            const downloadBundleButtons = document.querySelectorAll('a[href="/assets/pixel-icon-library-by-hackernoon.zip"]');
+            
+            // Add click event to each button
+            downloadBundleButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    // Show the popup after a small delay to allow the download to start
+                    setTimeout(() => {
+                        showPopup();
+                    }, 100);
+                });
+            });
         });
     </script>
 </body>
