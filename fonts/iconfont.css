@@ -91,7 +91,7 @@ url("iconfont.woff?dbb14673d2e8b522fce34247c10cd5eb") format("woff");
 .hn-linkedin:before {
 	content: "\f119";
 }
-.hn-mastadon:before {
+.hn-mastodon:before {
 	content: "\f11a";
 }
 .hn-minds:before {
