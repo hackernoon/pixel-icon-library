@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@hackernoon/pixel-icon-library": "^1.0.4",
-    "@tailwindcss/cli": "^4.0.6",
-    "tailwindcss": "^4.0.6"
+    "@hackernoon/pixel-icon-library": "^1.0.5",
+    "@tailwindcss/cli": "^4.0.13",
+    "tailwindcss": "^4.0.13"
   }
 }
