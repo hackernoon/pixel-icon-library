@@ -2,7 +2,7 @@
 
 # HackerNoon's Pixel Icon Library
 
-Introducing [HackerNoon’s Pixel Icon Library V3 (now available as a standalone site @ PixelIconLibrary.com)](https://pixeliconlibrary.com), an open-source collection of 1440+ Pixelated Icons. Meticulously designed on a 24px grid, ensuring perfect alignment and consistency to enrich your web/app/product/page/life experience. Inspired by HackerNoon’s retro design vibe, these icons capture the essence of the internet's good old days.
+Introducing [HackerNoon’s Pixel Icon Library (now available as a standalone site @ PixelIconLibrary.com)](https://pixeliconlibrary.com), an open-source collection of 1440+ Pixelated Icons. Meticulously designed on a 24px grid, ensuring perfect alignment and consistency to enrich your web/app/product/page/life experience. Inspired by HackerNoon’s retro design vibe, these icons capture the essence of the internet's good old days.
 
 ## What’s in the Pixel Icon Library?
 
