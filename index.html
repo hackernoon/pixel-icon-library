@@ -67,22 +67,22 @@
 </head>
 <body class="font-inter bg-[#101010] text-[#f5f5f5] flex flex-col min-h-screen">
     <nav class="navbar bg-[#101010] py-4 px-8 flex justify-between items-center z-20 sticky top-0">
-        <div class="flex-[0_0_70%] md:flex-1 flex justify-start items-center">
+        <div class="flex-[0_0_70%] lg:flex-1 flex justify-start items-center">
             <a href="/">
-                <img src="/assets/logo.svg" alt="Logo" class="h-8 md:h-9">
+                <img src="/assets/logo.svg" alt="Logo" class="h-8 lg:h-9">
             </a>
         </div>
-        <div class="hidden md:flex gap-12 justify-center flex-1 text-center items-center">
+        <div class="hidden lg:flex gap-12 justify-center flex-1 text-center items-center">
             <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="/about">About</a>
             <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="/usage">Usage</a>
             <a class="btn btn-ghost text-base font-semibold hover:text-[#00ff00]" href="/license">License</a>
         </div>
-        <div class="hidden md:flex gap-6 justify-end flex-1 items-center">
+        <div class="hidden lg:flex gap-6 justify-end flex-1 items-center">
             <div class="flex flex-col items-center group">
                 <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-2xl flex items-center justify-center" href="https://www.npmjs.com/package/@hackernoon/pixel-icon-library" aria-label="NPM Package">
                     <i class="hn hn-npm"></i>
                 </a>
-                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full px-2 py-1 mt-2">
+                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full p-1 mt-2">
                     <img src="https://img.shields.io/npm/dt/@hackernoon/pixel-icon-library?label=Downloads&labelColor=212121&color=212121&style=flat-square" alt="NPM Downloads" class="inline-block">
                 </span>
             </div>
@@ -90,7 +90,7 @@
                 <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-2xl flex items-center justify-center" href="https://github.com/hackernoon/pixel-icon-library" aria-label="GitHub Repository">
                     <i class="hn hn-github"></i>
                 </a>
-                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full px-2 py-1 mt-2">
+                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full p-1 mt-2">
                     <img src="https://img.shields.io/github/stars/hackernoon/pixel-icon-library?label=Stars&labelColor=212121&color=212121&style=flat-square" alt="GitHub Stars" class="inline-block">
                 </span>
             </div>
@@ -98,17 +98,17 @@
                 <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-2xl flex items-center justify-center" href="https://www.figma.com/community/file/1278952394341234192/pixel-icon-library-1440-pixelated-icons-by-hackernoon" aria-label="Figma Community File">
                     <i class="hn hn-figma"></i>
                 </a>
-                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full px-2 py-1 mt-2">
+                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full p-1 mt-2">
                     <img src="https://img.shields.io/badge/Users-6k-212121?labelColor=212121&style=flat-square" alt="Figma Users" class="inline-block">
                 </span>
             </div>
             <div>
-                <a href="/assets/pixel-icon-library-by-hackernoon.zip" download class="btn border border-[#00ff00] text-[#00ff00] font-semibold bg-[#101010] hover:bg-[#00ff00] hover:text-[#101010] px-4 py-3 rounded-[5px]">
+                <a href="/assets/pixel-icon-library-by-hackernoon.zip" download class="btn border border-[#00ff00] text-[#00ff00] font-semibold bg-[#101010] hover:bg-[#00ff00] hover:text-[#101010] px-4 py-3 rounded-[5px] whitespace-nowrap text-sm lg:text-base">
                     Download Bundle
                 </a>
             </div>
         </div>
-        <div class="flex-[0_0_30%] md:hidden flex justify-end items-center">
+        <div class="flex-[0_0_30%] lg:hidden flex justify-end items-center">
             <button class="btn btn-ghost text-2xl flex items-center justify-center" id="hamburger-btn" aria-label="Toggle Menu">
                 <i id="hamburger-icon" class="hn hn-bars-solid"></i>
             </button>
@@ -126,7 +126,7 @@
                 <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl" href="https://www.npmjs.com/package/@hackernoon/pixel-icon-library" aria-label="NPM Package">
                     <i class="hn hn-npm"></i>
                 </a>
-                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full px-1.5 py-0.5 mt-1 transition-colors duration-200 group-hover:bg-[#333333] group-hover:text-[#00ff00] whitespace-nowrap tracking-tight text-[9px] md:text-xs">
+                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full p-1 mt-1 transition-colors duration-200 group-hover:bg-[#333333] group-hover:text-[#00ff00] whitespace-nowrap tracking-tight text-[9px] md:text-xs">
                     <img src="https://img.shields.io/npm/dt/@hackernoon/pixel-icon-library?label=Downloads&labelColor=212121&color=212121&style=flat-square" alt="NPM Downloads" class="inline-block">
                 </span>
             </div>
@@ -134,7 +134,7 @@
                 <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl" href="https://github.com/hackernoon/pixel-icon-library" aria-label="GitHub Repository">
                     <i class="hn hn-github"></i>
                 </a>
-                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full px-1.5 py-0.5 mt-1 transition-colors duration-200 group-hover:bg-[#333333] group-hover:text-[#00ff00] whitespace-nowrap tracking-tight text-[9px] md:text-xs">
+                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full p-1 mt-1 transition-colors duration-200 group-hover:bg-[#333333] group-hover:text-[#00ff00] whitespace-nowrap tracking-tight text-[9px] md:text-xs">
                     <img src="https://img.shields.io/github/stars/hackernoon/pixel-icon-library?label=Stars&labelColor=212121&color=212121&style=flat-square" alt="GitHub Stars" class="inline-block">
                 </span>
             </div>
@@ -142,13 +142,13 @@
                 <a class="btn btn-square btn-ghost hover:text-[#00ff00] text-xl" href="https://www.figma.com/community/file/1278952394341234192/pixel-icon-library-1440-pixelated-icons-by-hackernoon" aria-label="Figma Community File">
                     <i class="hn hn-figma"></i>
                 </a>
-                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full px-1.5 py-0.5 mt-1 transition-colors duration-200 group-hover:bg-[#333333] group-hover:text-[#00ff00] whitespace-nowrap tracking-tight text-[9px] md:text-xs">
+                <span class="text-xs bg-[#212121] text-[#f5f5f5] rounded-full p-1 mt-1 transition-colors duration-200 group-hover:bg-[#333333] group-hover:text-[#00ff00] whitespace-nowrap tracking-tight text-[9px] md:text-xs">
                     <img src="https://img.shields.io/badge/Users-6k-212121?labelColor=212121&style=flat-square" alt="Figma Users" class="inline-block">
                 </span>
             </div>
         </div>
         <div class="flex justify-center mt-6">
-            <a href="/assets/pixel-icon-library-by-hackernoon.zip" download class="btn border border-[#00ff00] text-[#00ff00] font-semibold bg-[#101010] hover:bg-[#00ff00] hover:text-[#101010] px-4 py-3 rounded-[5px]">
+            <a href="/assets/pixel-icon-library-by-hackernoon.zip" download class="btn border border-[#00ff00] text-[#00ff00] font-semibold bg-[#101010] hover:bg-[#00ff00] hover:text-[#101010] px-4 py-3 rounded-[5px] whitespace-nowrap">
                 Download Bundle
             </a>
         </div>
