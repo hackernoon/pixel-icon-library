@@ -24,7 +24,8 @@ function generateIconsJson() {
     const icons = files.map(file => {
         const svgContent = fs.readFileSync(file, 'utf8');
         const iconName = path.basename(file, '.svg');
-        const tags = path.relative(iconsDir, path.dirname(file)).split(path.sep);
+        const tags = path.relative(iconsDir, path.dirname(file)).split(path.sep)
+            .map(tag => tag === 'brands' ? 'social-media-icons' : tag);
 
         return {
             name: iconName,
