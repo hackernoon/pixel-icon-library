@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const iconsDir = path.join(__dirname, 'node_modules/@hackernoon/pixel-icon-library/icons/SVG');
-const outputFilePath = path.join(__dirname, 'icons.json');
+const iconsDir = path.join(__dirname, '../node_modules/@hackernoon/pixel-icon-library/icons/SVG');
+const outputFilePath = path.join(__dirname, '../data/icons.json');
 
 function getFilesRecursively(dir) {
     const files = fs.readdirSync(dir, { withFileTypes: true });
