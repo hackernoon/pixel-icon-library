@@ -328,7 +328,13 @@
                             <i class="hn hn-copy text-[#f5f5f5] text-base transition-colors"></i>
                         </button>
                     </div>
-                    <button id="download-svg" class="w-full bg-[#00ff00] text-[#101010] font-semibold py-2 rounded hover:bg-[#424242] hover:text-[#f5f5f5] transition-colors cursor-pointer" style="width: 320px;">Download SVG</button>
+                    <div class="flex gap-2" style="width: 320px;">
+                        <button id="download-svg" class="flex-1 bg-[#00ff00] text-[#101010] font-semibold py-2 rounded hover:bg-[#424242] hover:text-[#f5f5f5] transition-colors cursor-pointer">Download SVG</button>
+                        <button id="copy-svg" class="bg-[#424242] text-[#f5f5f5] font-semibold py-2 px-3 rounded hover:bg-[#f5f5f5] hover:text-[#424242] transition-colors cursor-pointer flex items-center justify-center gap-2 whitespace-nowrap" style="min-width: 64px;">
+                            <i class="hn hn-copy text-sm"></i>
+                            <span>SVG</span>
+                        </button>
+                    </div>
                 </div>
                 
                 <!-- Back side of the card (popup content) -->
@@ -606,6 +612,7 @@
                 const iconTag = document.getElementById('icon-tag');
                 const iconCode = document.getElementById('icon-code');
                 const downloadButton = document.getElementById('download-svg');
+                const copySvgButton = document.getElementById('copy-svg');
                 const copyButton = document.getElementById('copy-code');
                 const closeFlipButton = document.getElementById('close-flip');
                 const copyFlipShoutoutBtn = document.getElementById('copy-flip-shoutout');
@@ -704,6 +711,41 @@
                                 // Mobile - vertical flip
                                 modalCardInner.style.transform = 'rotateX(180deg)';
                             }
+                        };
+                        
+                        copySvgButton.onclick = function() {
+                            navigator.clipboard.writeText(iconData.svg).then(() => {
+                                // Store original content
+                                const originalContent = copySvgButton.innerHTML;
+                                
+                                // Replace with centered check icon
+                                copySvgButton.innerHTML = '<i class="hn hn-check-solid text-sm"></i>';
+                                
+                                setTimeout(() => {
+                                    // Restore original content
+                                    copySvgButton.innerHTML = originalContent;
+                                }, 2000);
+                            }).catch(err => {
+                                console.error('Failed to copy SVG: ', err);
+                                // Fallback for older browsers
+                                const textArea = document.createElement('textarea');
+                                textArea.value = iconData.svg;
+                                document.body.appendChild(textArea);
+                                textArea.select();
+                                document.execCommand('copy');
+                                document.body.removeChild(textArea);
+                                
+                                // Store original content
+                                const originalContent = copySvgButton.innerHTML;
+                                
+                                // Replace with centered check icon
+                                copySvgButton.innerHTML = '<i class="hn hn-check-solid text-sm"></i>';
+                                
+                                setTimeout(() => {
+                                    // Restore original content
+                                    copySvgButton.innerHTML = originalContent;
+                                }, 2000);
+                            });
                         };
                         modal.classList.remove('hidden');
                         history.pushState({iconData}, '', `/${iconData.name}`);
