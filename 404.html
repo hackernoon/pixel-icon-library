@@ -7,13 +7,15 @@
       const url = new URL(window.location.href);
       console.log("url", url);
 
-      if (!url.searchParams.has('icon') && url.pathname.length > 1) {
-        const iconName = url.pathname.slice(1); 
-
-        // Create the new URL format
+      if (url.pathname.startsWith('/featured/')) {
+        const slug = url.pathname.replace('/featured/', '').replace(/^\/+|\/+$/g, '');
+        url.pathname = '/featured';
+        url.searchParams.set('site', slug);
+        window.location.replace(url.toString());
+      } else if (!url.searchParams.has('icon') && url.pathname.length > 1) {
+        const iconName = url.pathname.slice(1);
         url.pathname = '/';
         url.searchParams.set('icon', iconName);
-
         window.location.replace(url.toString());
       }
 

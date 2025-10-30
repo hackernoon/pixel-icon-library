@@ -799,11 +799,18 @@
                 
                 // Check URL on page load for direct featured site access
                 const pathParts = window.location.pathname.split('/').filter(Boolean);
+                let initialSlug = null;
                 if (pathParts.length === 2 && pathParts[0] === 'featured') {
-                    const slug = pathParts[1];
-                    const siteIndex = findSiteBySlug(slug);
+                    initialSlug = pathParts[1];
+                } else {
+                    const params = new URLSearchParams(window.location.search);
+                    const siteParam = params.get('site');
+                    if (siteParam) initialSlug = siteParam;
+                }
+
+                if (initialSlug) {
+                    const siteIndex = findSiteBySlug(initialSlug);
                     if (siteIndex !== -1) {
-                        // Small delay to ensure modal HTML is ready
                         setTimeout(() => openModal(siteIndex), 50);
                     }
                 }
