@@ -1,6 +1,7 @@
 const fs = require('fs');
+const path = require('path');
 
-fs.readFile('data/icons.json', 'utf8', (err, data) => {
+fs.readFile(path.join(__dirname, '../data/icons.json'), 'utf8', (err, data) => {
     if (err) {
         console.error('Error reading icons.json:', err);
         return;
@@ -29,7 +30,7 @@ fs.readFile('data/icons.json', 'utf8', (err, data) => {
 
         sitemap += '\n</urlset>';
 
-        fs.writeFile('/sitemap.xml', sitemap, err => {
+        fs.writeFile(path.join(__dirname, '../sitemap.xml'), sitemap, err => {
             if (err) {
                 console.error('Error writing sitemap.xml:', err);
                 return;
