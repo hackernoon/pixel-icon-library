@@ -1,4 +1,5 @@
-![Github Cover](https://github.com/hackernoon/pixel-icon-library/assets/53912722/e7527cc9-424d-43ec-a481-78730d1a7d95)
+![Github Cover](https://github.com/user-attachments/assets/dffe651b-8d74-40df-8fbd-5e71f10a0873)
+
 
 # HackerNoon's Pixel Icon Library
 
