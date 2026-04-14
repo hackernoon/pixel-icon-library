@@ -7,7 +7,7 @@ Introducing [HackerNoon’s Pixel Icon Library (now available as a standalone si
 
 ## What’s in the Pixel Icon Library?
 
-- 560+ Unique Pixelated Vector Icons.
+- 578 Unique Pixelated Vector Icons.
 - 4 variations per icon to better match your project aesthetic.
 - Light SVG Files.
 - PNG files in 12px, 16 px, 24px, and 48px for both Light/Dark Mode.
