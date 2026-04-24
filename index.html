@@ -15,6 +15,14 @@
     <meta property="og:url" content="https://pixeliconlibrary.com">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://pixeliconlibrary.com">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7BSQ4WQNJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-E7BSQ4WQNJ');
+    </script>
     <!-- Custom styles for 3D transforms (not included in Tailwind by default) -->
     <style>
         .perspective-1000 { perspective: 1000px; }
@@ -428,6 +436,40 @@
         let downloadPopup;
         let closePopupBtn;
         let copyShoutoutBtn;
+        let lastTrackedSearch = '';
+        let lastTrackedAt = 0;
+
+        function trackIconSearch(term, source = 'enter') {
+            const cleanedTerm = (term || '').trim().toLowerCase();
+            if (!cleanedTerm || cleanedTerm.length < 2 || typeof window.gtag !== 'function') {
+                return;
+            }
+
+            // Prevent duplicate events from firing repeatedly within a short window.
+            const now = Date.now();
+            if (cleanedTerm === lastTrackedSearch && now - lastTrackedAt < 10000) {
+                return;
+            }
+
+            lastTrackedSearch = cleanedTerm;
+            lastTrackedAt = now;
+
+            gtag('event', 'icon_search', {
+                search_term: cleanedTerm,
+                search_source: source
+            });
+        }
+
+        function trackDownloadBundle(location = 'unknown') {
+            if (typeof window.gtag !== 'function') {
+                return;
+            }
+
+            gtag('event', 'download_bundle', {
+                cta_location: location,
+                page_path: window.location.pathname
+            });
+        }
         
         function showPopup() {
             downloadPopup = document.getElementById('download-popup');
@@ -598,6 +640,7 @@
                 document.getElementById('icon-search').addEventListener('keypress', (e) => {
                     if (e.key === 'Enter') {
                         const searchTerm = e.target.value;
+                        trackIconSearch(searchTerm, 'enter');
                         createIconCards(data.icons, currentFilterValue, searchTerm);
                         suggestionsContainer.classList.add('hidden'); // Hide suggestions on Enter
                         
@@ -884,6 +927,7 @@
                                 const iconName = item.querySelector('span').textContent;
                                 searchInput.value = iconName;
                                 suggestionsContainer.classList.add('hidden');
+                                trackIconSearch(iconName, 'suggestion_click');
                                 // Trigger the search
                                 createIconCards(data.icons, currentFilterValue, iconName);
                                 
@@ -942,6 +986,8 @@
             // Add click event to each button
             downloadBundleButtons.forEach(button => {
                 button.addEventListener('click', function(e) {
+                    const location = button.closest('#mobile-menu') ? 'mobile_nav' : 'desktop_nav';
+                    trackDownloadBundle(location);
                     // Show the popup after a small delay to allow the download to start
                     setTimeout(() => {
                         showPopup();

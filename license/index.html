@@ -17,6 +17,13 @@
     <meta property="og:url" content="https://pixeliconlibrary.com/license">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://pixeliconlibrary.com/license">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7BSQ4WQNJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-E7BSQ4WQNJ');
+    </script>
     <style>
         .faq-content {
             transition: all 0.3s ease-in-out;
@@ -647,6 +654,17 @@
         let closePopupBtn;
         let copyShoutoutBtn;
 
+        function trackDownloadBundle(location = 'unknown') {
+            if (typeof window.gtag !== 'function') {
+                return;
+            }
+
+            gtag('event', 'download_bundle', {
+                cta_location: location,
+                page_path: window.location.pathname
+            });
+        }
+
         function showPopup() {
             downloadPopup = document.getElementById('download-popup');
             closePopupBtn = document.getElementById('close-popup');
@@ -735,6 +753,8 @@
             // Add click event to each button
             downloadBundleButtons.forEach(button => {
                 button.addEventListener('click', function (e) {
+                    const location = button.closest('#mobile-menu') ? 'mobile_nav' : 'desktop_nav';
+                    trackDownloadBundle(location);
                     // Show the popup after a small delay to allow the download to start
                     setTimeout(() => {
                         showPopup();
